@@ -14,7 +14,7 @@ def SearchTwitter(query):
     return query_URL
 
 def SearchWikipedia(query):
-    query = query.replace(" ", "+")
+    query = query.replace(" ", "_")
     query_URL = "https://en.wikipedia.org/wiki/" + query
     return query_URL
 
