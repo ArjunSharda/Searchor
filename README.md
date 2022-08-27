@@ -4,8 +4,8 @@
 
 ## Installation
 `pip install searchor` in terminal
-Then in your code do `import seaorchor`
+Then in your code do `import searchor`
 
 ## Upgrading Searchor
-`pip install --upgrade seaorchor in terminal
+`pip install --upgrade searchor in terminal
 
