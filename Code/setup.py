@@ -12,7 +12,7 @@ classifiers = [
  
 setup(
   name='Searchor',
-  version='1.0.2',
+  version='1.0.3',
   description='Math package',
   long_description=open('README.txt').read() + '\n\n' + open('CHANGELOG.txt').read(),
   url='https://github.com/ArjunSharda/Mathician',  
@@ -20,7 +20,7 @@ setup(
   author_email='sharda.aj17@gmail.com',
   license='MIT', 
   classifiers=classifiers,
-  keywords='Searchor.py', 
+  keywords='Searchor', 
   packages=find_packages(),
   install_requires=[''] 
 )
