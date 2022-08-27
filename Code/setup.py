@@ -11,8 +11,8 @@ classifiers = [
 ]
  
 setup(
-  name='Searchor.py',
-  version='1.0.0',
+  name='Searchor',
+  version='1.0.2',
   description='Math package',
   long_description=open('README.txt').read() + '\n\n' + open('CHANGELOG.txt').read(),
   url='https://github.com/ArjunSharda/Mathician',  
