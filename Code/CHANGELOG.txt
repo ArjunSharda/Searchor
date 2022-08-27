@@ -1,5 +1,5 @@
 Change Log
 
-Version 1.0.3:
+Version 1.0.5:
 
-+ Changed hashtag
++ Fixed mistake for PyPi
