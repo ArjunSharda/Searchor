@@ -12,10 +12,10 @@ classifiers = [
  
 setup(
   name='Searchor',
-  version='1.0.3',
+  version='1.0.5',
   description='Math package',
   long_description=open('README.txt').read() + '\n\n' + open('CHANGELOG.txt').read(),
-  url='https://github.com/ArjunSharda/Mathician',  
+  url='https://github.com/ArjunSharda/Searchor',  
   author="Arjun Sharda",
   author_email='sharda.aj17@gmail.com',
   license='MIT', 
