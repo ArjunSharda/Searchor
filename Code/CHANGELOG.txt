@@ -1,5 +1,8 @@
 Change Log
 
-Version 1.0.5:
+Version 1.1.0:
 
-+ Fixed mistake for PyPi
++ Added Walmart search query
++ Removed Alibaba search, however if it has popular demand it might be added again
++ Fixed Dictionary bug, apologies for that
++ Added Microsoft Explore
