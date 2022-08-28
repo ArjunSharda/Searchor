@@ -54,3 +54,7 @@ def ExploreMicrosoft(query):
   query_URL = "https://www.microsoft.com/en-us/search/explore?q=" + query
   return query_URL
 
+def SearchGitHub(query):
+    query = query.replace(" ", "+")
+    query_URL = "https://github.com/search?q=" + query
+    return query_URL

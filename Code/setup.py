@@ -12,7 +12,7 @@ classifiers = [
  
 setup(
   name='Searchor',
-  version='1.1.0',
+  version='1.1.1',
   description='Math package',
   long_description=open('README.txt').read() + '\n\n' + open('CHANGELOG.txt').read(),
   url='https://github.com/ArjunSharda/Searchor',  
