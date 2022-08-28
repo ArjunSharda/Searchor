@@ -19,7 +19,7 @@ def SearchWikipedia(query):
     return query_URL
 
 def SearchDictionary(query):
-    query = query.replace(" ", "+")
+    query = query.replace(" ", "-")
     query_URL = "https://www.dictionary.com/browse/" + query
     return query_URL
 
@@ -33,11 +33,6 @@ def SearchAmazon(query):
     query_URL = "https://www.amazon.com/s?k=" + query
     return query_URL
 
-def SearchAlibaba(query):
-    query = query.replace(" ", "+")
-    query_URL = "https://www.alibaba.com/products?q=" + query
-    return query_URL
-
 def SearchBing(query):
     query = query.replace(" ", "+")
     query_URL = "https://www.bing.com/search?q=" + query
@@ -47,3 +42,15 @@ def SearchDuckDuckGo(query):
     query = query.replace(" ", "+")
     query_URL = "https://duckduckgo.com/?q=" + query
     return query_URL
+
+def SearchWalmart(query):
+  query = query.replace(" ", "+")
+  query_URL = "https://www.walmart.com/search?q=" + query
+  return query_URL
+
+
+def ExploreMicrosoft(query):
+  query = query.replace(" ", "+")
+  query_URL = "https://www.microsoft.com/en-us/search/explore?q=" + query
+  return query_URL
+
