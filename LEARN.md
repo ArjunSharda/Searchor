@@ -1,4 +1,4 @@
-Searchor uses Python functions and Python.
+Searchor uses Python functions and Python. Functions are mainly defined sync
 
 # Installation
 `pip install searchor`
