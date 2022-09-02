@@ -1,5 +1,5 @@
 from setuptools import setup, find_packages
- 
+
 classifiers = [
   'Development Status :: 2 - Pre-Alpha',
   'Intended Audience :: Developers',
@@ -9,7 +9,7 @@ classifiers = [
   'Programming Language :: Python :: 3.9',
   'Programming Language :: Python :: 3.10'
 ]
- 
+
 setup(
   name='Searchor',
   version='1.1.1',
