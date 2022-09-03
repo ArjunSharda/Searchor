@@ -59,7 +59,7 @@ def SearchGitHub(query):
   query_URL = "https://github.com/search?q=" + query
   return query_URL
 
-def custom(query, queryurl, spacingsymbol):
+def Custom(query, queryurl, spacingsymbol):
   query = query.replace(" ", spacingsymbol)
   query_URL = queryurl + query
   return query_URL
