@@ -2,5 +2,5 @@ Change Log
 
 Version 1.2.0:
 
-+ Added custom
-+ Added Apple
++ Added custom function
++ Added Apple search function
