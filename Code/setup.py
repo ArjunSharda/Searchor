@@ -1,5 +1,5 @@
 from setuptools import setup, find_packages
-
+ 
 classifiers = [
   'Development Status :: 2 - Pre-Alpha',
   'Intended Audience :: Developers',
@@ -9,11 +9,11 @@ classifiers = [
   'Programming Language :: Python :: 3.9',
   'Programming Language :: Python :: 3.10'
 ]
-
+ 
 setup(
   name='Searchor',
   version='1.2.0',
-  description='Math package',
+  description='⚡️ Spend less time making search functions for search engines + more',
   long_description=open('README.txt').read() + '\n\n' + open('CHANGELOG.txt').read(),
   url='https://github.com/ArjunSharda/Searchor',  
   author="Arjun Sharda",
