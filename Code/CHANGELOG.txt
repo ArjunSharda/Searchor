@@ -1,5 +1,6 @@
 Change Log
 
-Version 1.1.1:
+Version 1.2.0:
 
-+ Added GitHub
++ Added custom
++ Added Apple
