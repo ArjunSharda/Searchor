@@ -58,3 +58,13 @@ def SearchGitHub(query):
   query = query.replace(" ", "+")
   query_URL = "https://github.com/search?q=" + query
   return query_URL
+
+def Custom(query, queryurl, spacingsymbol):
+  query = query.replace(" ", spacingsymbol)
+  query_URL = queryurl + query
+  return query_URL
+
+def SearchApple(query):
+  query = query.replace(" ", "-")
+  query_URL = "https://apple.com/search/" + query
+  return query_URL
