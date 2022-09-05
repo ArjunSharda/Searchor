@@ -3,9 +3,9 @@
 ⚡️ Spend less time making search functions for search engines + more
 
 ## Installation
-`pip install searchor` in terminal
-Then in your code do `import searchor`
+Do `pip install searchor` in your terminal
+Then in your code add `import searchor`
 
 ## Upgrading Searchor
-`pip install --upgrade searchor in terminal
+Do `pip install --upgrade searchor` in your terminal
 
