@@ -93,3 +93,8 @@ def SearchJetBrains(query):
   jbs = "&s=full"
   query_URL = "jetbrains.com/?q=" + query + jbs
   return query_URL
+
+def SearchQuora(query):
+  query = query.replace(" ", "%20")
+  query_URL = "https://www.quora.com/search?q=" + query
+  return query_URL
