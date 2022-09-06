@@ -48,7 +48,6 @@ def SearchWalmart(query):
   query_URL = "https://www.walmart.com/search?q=" + query
   return query_URL
 
-
 def ExploreMicrosoft(query):
   query = query.replace(" ", "+")
   query_URL = "https://www.microsoft.com/en-us/search/explore?q=" + query
