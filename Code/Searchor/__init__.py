@@ -48,7 +48,6 @@ def SearchWalmart(query):
   query_URL = "https://www.walmart.com/search?q=" + query
   return query_URL
 
-
 def ExploreMicrosoft(query):
   query = query.replace(" ", "+")
   query_URL = "https://www.microsoft.com/en-us/search/explore?q=" + query
@@ -67,4 +66,35 @@ def Custom(query, queryurl, spacingsymbol):
 def SearchApple(query):
   query = query.replace(" ", "-")
   query_URL = "https://apple.com/search/" + query
+  return query_URL
+
+def SearchTarget(query):
+  query = query.replace(" ", "+")
+  query_URL = "https://www.target.com/s?searchTerm=" + query
+  return query_URL
+
+def SearchGenius(query):
+  query = query.replace(" ", "%20")
+  query_URL = "https://genius.com/search?q=" + query
+  return query_URL
+
+def SearchTwitch(query):
+  query = query.replace(" ", "%20")
+  query_URL = "https://www.twitch.tv/search?term=" + query
+  return query_URL
+
+def SearchStackOverflow(query):
+  query = query.replace(" ", "+")
+  query_URL = "https://stackoverflow.com/search?q=" + query
+  return query_URL
+
+def SearchJetBrains(query):
+  query = query.replace(" ", "+")
+  jbs = "&s=full"
+  query_URL = "jetbrains.com/?q=" + query + jbs
+  return query_URL
+
+def SearchQuora(query):
+  query = query.replace(" ", "%20")
+  query_URL = "https://www.quora.com/search?q=" + query
   return query_URL
