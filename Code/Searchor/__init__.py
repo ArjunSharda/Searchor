@@ -68,3 +68,24 @@ def SearchApple(query):
   query = query.replace(" ", "-")
   query_URL = "https://apple.com/search/" + query
   return query_URL
+
+def SearchTarget(query):
+  query = query.replace(" ", "+")
+  # Using F-Strings for the Learning factor. Later it's used widely in projects.
+  query_URL = f"https://www.target.com/s?searchTerm={query}"
+  return query_URL
+
+def SearchGenius(query):
+  query = query.replace(" ", "%20")
+  query_URL = f"https://genius.com/search?q={query}"
+  return query_URL
+
+def SearchTwitch(query):
+  query = query.replace(" ", "%20")
+  query_URL = f"https://www.twitch.tv/search?term={query}"
+  return query_URL
+
+def SearchStackOverflow(query):
+  query = query.replace(" ", "+")
+  query_URL = f"https://stackoverflow.com/search?q={query}"
+  return query_URL
