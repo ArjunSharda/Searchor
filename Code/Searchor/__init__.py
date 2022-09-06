@@ -71,7 +71,6 @@ def SearchApple(query):
 
 def SearchTarget(query):
   query = query.replace(" ", "+")
-  # Using F-Strings for the Learning factor. Later it's used widely in projects.
   query_URL = f"https://www.target.com/s?searchTerm=" + query
   return query_URL
 
