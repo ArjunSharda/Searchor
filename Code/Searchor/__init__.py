@@ -71,20 +71,26 @@ def SearchApple(query):
 
 def SearchTarget(query):
   query = query.replace(" ", "+")
-  query_URL = f"https://www.target.com/s?searchTerm=" + query
+  query_URL = "https://www.target.com/s?searchTerm=" + query
   return query_URL
 
 def SearchGenius(query):
   query = query.replace(" ", "%20")
-  query_URL = f"https://genius.com/search?q=" + query
+  query_URL = "https://genius.com/search?q=" + query
   return query_URL
 
 def SearchTwitch(query):
   query = query.replace(" ", "%20")
-  query_URL = f"https://www.twitch.tv/search?term=" + query
+  query_URL = "https://www.twitch.tv/search?term=" + query
   return query_URL
 
 def SearchStackOverflow(query):
   query = query.replace(" ", "+")
-  query_URL = f"https://stackoverflow.com/search?q=" + query
+  query_URL = "https://stackoverflow.com/search?q=" + query
+  return query_URL
+
+def SearchJetBrains(query):
+  query = query.replace(" ", "+")
+  jbs = "&s=full"
+  query_URL = "jetbrains.com/?q=" + query + jbs
   return query_URL
