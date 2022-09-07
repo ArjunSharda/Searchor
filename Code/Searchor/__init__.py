@@ -98,3 +98,36 @@ def SearchQuora(query):
   query = query.replace(" ", "%20")
   query_URL = "https://www.quora.com/search?q=" + query
   return query_URL
+
+def SearchReddit(query):
+  query = query.replace(" ", "%20")
+  query_URL = "https://www.reddit.com/search/?q=" + query
+  return query_URL
+
+def SearchLenovo(query):
+  query = query.replace(" ", "%20")
+  query_URL = "https://www.lenovo.com/us/en/search?fq=&text=" + query
+  return query_URL
+
+def SearchInstantGaming(query):
+  query = query.replace(" ", "%20")
+  query_URL = "https://www.instant-gaming.com/en/search/?query=" + query
+  return query_URL
+
+def SearchTextures(query):
+  query = query.replace(" ", "%20")
+  query_URL = "https://www.textures.com/search?q=" + query
+  return query_URL
+
+def SearchCrunchyroll(query, beta=False):
+  # Heres the extra beta parameter because the website has two different links between beta an non-beta.
+
+  query = query.replace(" ", "+")
+  query_URL = "https://www.crunchyroll.com/search?from=&q=" + query
+
+  if beta:
+    query = query.replace("+", "%20")
+    query_URL = "https://beta.crunchyroll.com/search?q=" + query
+
+  return query_URL
+
