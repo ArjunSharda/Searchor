@@ -119,8 +119,10 @@ def SearchTextures(query):
   query_URL = "https://www.textures.com/search?q=" + query
   return query_URL
 
-def SearchCrunchyroll(query, beta=False):
+def SearchCrunchyroll(query, beta=True):
   # Heres the extra beta parameter because the website has two different links between beta an non-beta.
+  # The default is true, becuase in the most countries is the beta already the main site
+  # and the old one can't be reached.
 
   query = query.replace(" ", "+")
   query_URL = "https://www.crunchyroll.com/search?from=&q=" + query
@@ -129,5 +131,10 @@ def SearchCrunchyroll(query, beta=False):
     query = query.replace("+", "%20")
     query_URL = "https://beta.crunchyroll.com/search?q=" + query
 
+  return query_URL
+
+def SearchLinkedIn(query):
+  query = query.replace(" ", "%20")
+  query_URL = "https://www.linkedin.com/search/results/all/?keywords=" + query
   return query_URL
 
