@@ -120,10 +120,6 @@ def SearchTextures(query):
   return query_URL
 
 def SearchCrunchyroll(query, beta=True):
-  # Heres the extra beta parameter because the website has two different links between beta an non-beta.
-  # The default is true, becuase in the most countries is the beta already the main site
-  # and the old one can't be reached.
-
   query = query.replace(" ", "+")
   query_URL = "https://www.crunchyroll.com/search?from=&q=" + query
 
