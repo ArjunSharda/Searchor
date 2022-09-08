@@ -100,6 +100,6 @@ def SearchQuora(query):
   return query_URL
 
 def SearchUrbanDictionary(query):
-  query = query.replace(" ", "+")
+  query = query.replace(" ", "%20")
   query_URL = "https://www.urbandictionary.com/define.php?term=" + query
   return query_URL
