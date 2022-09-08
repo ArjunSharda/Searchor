@@ -134,7 +134,7 @@ def SearchLinkedIn(query):
   query_URL = "https://www.linkedin.com/search/results/all/?keywords=" + query
   return query_URL
 
-def SearchChromeAddons(query):
+def SearchChromeWebStore(query):
   query = query.replace(" ", "%20")
   query_URL = "https://chrome.google.com/webstore/search/" + query
   return query_URL
