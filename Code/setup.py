@@ -12,7 +12,7 @@ classifiers = [
  
 setup(
   name='Searchor',
-  version='1.2.0',
+  version='1.4.0',
   description='⚡️ Spend less time making search functions for search engines + more',
   long_description=open('README.txt').read() + '\n\n' + open('CHANGELOG.txt').read(),
   url='https://github.com/ArjunSharda/Searchor',  
