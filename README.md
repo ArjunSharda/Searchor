@@ -5,7 +5,7 @@
 ## Installation
 Do `pip install searchor` in your terminal
 <br>
-Then in your code add `import searchor`
+Afterwards in your code add `import searchor`
 </br>
 
 ## Upgrading Searchor
