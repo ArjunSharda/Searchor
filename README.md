@@ -1,7 +1,9 @@
 Searchor
 ========
 ![PyPI](https://img.shields.io/pypi/v/searchor?color=green&logo=python&logoColor=green)
-<div style="text-align: center; display: grid; justify-content: center;"><img style="margin: auto; margin-bottom: 1rem; border-radius: 30%;" height="150" width="150" src="https://media.discordapp.net/attachments/1006947177077166191/1013165217255006249/Searchor.png"/>⚡️ Spend less time making search functions for search engines + more</div>
+<div style="text-align: center; display: grid; justify-content: center;"><img style="margin: auto; margin-bottom: 1rem; border-radius: 30%;" height="150" width="150" src="https://media.discordapp.net/attachments/1006947177077166191/1013165217255006249/Searchor.png"/></div>
+
+⚡️ Spend less time making search functions for search engines + more
 
 Installation
 ------------
