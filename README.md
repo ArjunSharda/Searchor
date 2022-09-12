@@ -19,6 +19,5 @@ Quick Start
 ```python
 import searchor
 print(searchor.SearchGoogle("hello world")
-
-Take a look at more examples in the [examples](https://github.com/ArjunSharda/Searchor/tree/main/examples) folder!
 ```
+Take a look at more examples in the [examples](https://github.com/ArjunSharda/Searchor/tree/main/examples) folder!
