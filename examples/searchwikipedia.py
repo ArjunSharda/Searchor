@@ -1,3 +1,3 @@
-import searchor
+import Searchor
 
-print(searchor.SearchWikipedia("Thomas Jefferson"))
+print(Searchor.SearchWikipedia("Thomas Jefferson"))
