@@ -1,3 +1,3 @@
-import searchor
+import Searchor
 
-print(searchor.SearchBing("Hello World!"))
+print(Searchor.SearchBing("Hello World!"))
