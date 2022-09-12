@@ -17,7 +17,8 @@ py -3 -m pip install -U searchor
 Quick Start
 -----------
 ```python
->>> from searchor import SearchGoogle
->>> SearchGoogle("hello, world!")
-"https://google.com/search?q=hello%2C%20world%21"
+import searchor
+print(searchor.SearchGoogle("hello world")
+
+Take a look at more examples in the [examples](https://github.com/ArjunSharda/Searchor/tree/main/examples) folder!
 ```
