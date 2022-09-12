@@ -1,3 +1,3 @@
-import searchor
+import Searchor
 
-print(searchor.SearchYahoo("Hello World!"))
+print(Searchor.SearchYahoo("Hello World!"))
