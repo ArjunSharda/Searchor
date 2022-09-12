@@ -1,3 +1,3 @@
-import searchor
+import Searchor
 
-print(searchor.SearchGoogle("Hello World!"))
+print(Searchor.SearchGoogle("Hello World!"))
