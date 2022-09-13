@@ -1,3 +1,2 @@
-import searchor
-
-print(searchor.SearchGoogle("Hello World!"))
+from Searchor import search
+print(search("Hello, World!")) # default engine is Google

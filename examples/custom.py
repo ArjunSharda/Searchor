@@ -1,2 +1,2 @@
-import Searchor
-print(Searchor.Custom("Actions Review", "https://github.com/marketplace?query=", "+"))
+from Searchor import search, Engine
+print(search("Actions Review", Engine.Custom, "https://github.com/marketplace?query="))
