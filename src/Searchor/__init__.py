@@ -1,4 +1,3 @@
-import enum
 from urllib.parse import quote
 
 class Engine:
@@ -34,11 +33,6 @@ class Engine:
     Bing = "https://www.bing.com/search?q={query}"
     Apple = "https://www.apple.com/search/{query}"
     Amazon = "https://www.amazon.com/s?k={query}"
-    Custom = None
 
 def search(query, engine=Engine.Google):
     return engine.format(query=quote(query, safe=""))
-
-assert search("test") == "https://www.google.com/search?q=test"
-assert search("test", Engine.Custom, "https://example.com/?q={query}") == "https://example.com/?q=test"
-assert search("hello, world!") == "https://www.google.com/search?q=hello%2C%20world%21"

@@ -19,8 +19,8 @@ py -3 -m pip install -U searchor
 Quick Start
 -----------
 ```python
->>> from Searchor import query, Engine
->>> query("Hello, World!", Engine.Google)
+>>> from Searchor import search, Engine
+>>> search("Hello, World!", Engine.Google)
 'https://www.google.com/search?q=Hello%2C%20World%21'
 ```
 Take a look at more examples in the [examples](https://github.com/ArjunSharda/Searchor/tree/main/examples) folder!
