@@ -1,2 +1,2 @@
-from Searchor import search
+from searchor import search
 print(search("Hello, World!")) # default engine is Google

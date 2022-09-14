@@ -1,7 +1,7 @@
 Searchor
 ========
 ![PyPI](https://img.shields.io/pypi/v/searchor?color=green&logo=python&logoColor=green)
-<div style="text-align: center; display: grid; justify-content: center;"><img style="margin: auto; margin-bottom: 1rem; border-radius: 30%;" height="150" width="150" src="./ext/Searchor.png"/></div>
+<div style="text-align: center; display: grid; justify-content: center;"><img style="margin: auto; margin-bottom: 1rem; border-radius: 30%;" height="150" width="150" src="./ext/searchor.png"/></div>
 
 ⚡️ Quick and easy search engine queries.
 
@@ -19,18 +19,15 @@ py -3 -m pip install -U searchor
 Quick Start
 -----------
 ```python
->>> from Searchor import search, Engine
+>>> from searchor import search, Engine
 >>> search("Hello, World!", Engine.Google)
 'https://www.google.com/search?q=Hello%2C%20World%21'
 ```
 Take a look at more examples in the [examples](https://github.com/ArjunSharda/Searchor/tree/main/examples) folder!
 
-v2.0.0 Changes
+v2.0.1 Changes
 --------------
-- **[BREAKING]** Removed all search pre-existing functions.
-- **[ADDED]** `search` function.
-- **[ADDED]** `Engine` class.
-- **[ADDED]** Support for url encoding.
+- **[MODIFIED]** changed all imports from `Searchor` to `searchor`
 
 
 Migration
@@ -43,7 +40,7 @@ Searchor.SearchGoogle("Hello, World!")
 ```
 ```python
 # Searchor v2.0.0
-from Searchor import search, Engine
+from searchor import search, Engine
 search("Hello, World!", Engine.Google)
 ```
 
@@ -51,12 +48,12 @@ Custom Engine
 -------------
 Single Use 
 ```python
-from Searchor import search
+from searchor import search
 search("Hello, World!", "https://example.com/search/{query}")
 ```
 Multiple Use
 ```python
-from Searchor import search, Engine
+from searchor import search, Engine
 Engine.MySite = "https://example.com/search/{query}"
 search("Hello, World!", Engine.MySite)
 search("Hello Again!", Engine.MySite)
