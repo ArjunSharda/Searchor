@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "searchor"
+version = "2.0.0"
+authors = [
+    { name="Arjun Sharda", email="sharda.aj17@gmail.com" },
+    { name="William Jackson", email="william@kegnh.com" },
+]
+description = "⚡️ Quick and easy search engine queries."
+license = { file="LICENSE" }
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/ArjunSharda/Searchor"
+"Bug Tracker" = "https://github.com/ArjunSharda/Searchor/issues"
