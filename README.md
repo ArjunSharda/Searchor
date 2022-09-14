@@ -1,7 +1,7 @@
 Searchor
 ========
 ![PyPI](https://img.shields.io/pypi/v/searchor?color=green&logo=python&logoColor=green)
-<div style="text-align: center; display: grid; justify-content: center;"><img style="margin: auto; margin-bottom: 1rem; border-radius: 30%;" height="150" width="150" src="./src/Searchor.png"/></div>
+<div style="text-align: center; display: grid; justify-content: center;"><img style="margin: auto; margin-bottom: 1rem; border-radius: 30%;" height="150" width="150" src="./ext/Searchor.png"/></div>
 
 ⚡️ Quick and easy search engine queries.
 
