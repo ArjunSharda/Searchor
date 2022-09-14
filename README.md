@@ -1,9 +1,9 @@
 Searchor
 ========
 ![PyPI](https://img.shields.io/pypi/v/searchor?color=green&logo=python&logoColor=green)
-<div style="text-align: center; display: grid; justify-content: center;"><img style="margin: auto; margin-bottom: 1rem; border-radius: 30%;" height="150" width="150" src="https://media.discordapp.net/attachments/1006947177077166191/1013165217255006249/Searchor.png"/></div>
+<div style="text-align: center; display: grid; justify-content: center;"><img style="margin: auto; margin-bottom: 1rem; border-radius: 30%;" height="150" width="150" src="./src/Searchor.png"/></div>
 
-⚡️ Spend less time making search functions for search engines + more
+⚡️ Spend less time making search functions for search engines + more.
 
 Installation
 ------------
@@ -19,7 +19,45 @@ py -3 -m pip install -U searchor
 Quick Start
 -----------
 ```python
-import Searchor
-print(Searchor.SearchGoogle("hello world")
+>>> from Searchor import search, Engine
+>>> search("Hello, World!", Engine.Google)
+'https://www.google.com/search?q=Hello%2C%20World%21'
 ```
 Take a look at more examples in the [examples](https://github.com/ArjunSharda/Searchor/tree/main/examples) folder!
+
+v2.0.0 Changes
+--------------
+- **[BREAKING]** Removed all search pre-existing functions.
+- **[ADDED]** `search` function.
+- **[ADDED]** `Engine` class.
+- **[ADDED]** Support for url encoding.
+
+
+Migration
+---------
+Instead of different functions for each engine, Searchor `v2.0.0` uses a single function with an `Engine` enum. This makes it easier to use and maintain. If you're migrating from `v1.0.0`, compare the differences between the following snippets:
+```python
+# Searchor v1.0.0
+import Searchor
+Searchor.SearchGoogle("Hello, World!")
+```
+```python
+# Searchor v2.0.0
+from Searchor import search, Engine
+search("Hello, World!", Engine.Google)
+```
+
+Custom Engine
+-------------
+Single Use 
+```python
+from Searchor import search
+search("Hello, World!", "https://example.com/search/{query}")
+```
+Multiple Use
+```python
+from Searchor import search, Engine
+Engine.MySite = "https://example.com/search/{query}"
+search("Hello, World!", Engine.MySite)
+search("Hello Again!", Engine.MySite)
+```

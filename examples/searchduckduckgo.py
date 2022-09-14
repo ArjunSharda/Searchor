@@ -1,3 +1,2 @@
-import Searchor
-
-print(Searchor.SearchDuckDuckGo("Hello World!"))
+from Searchor import search, Engine
+print(search("Hello, World!", Engine.DuckDuckGo))

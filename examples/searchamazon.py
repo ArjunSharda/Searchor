@@ -1,3 +1,2 @@
-import Searchor
-
-print(Searchor.SearchAmazon("Hello World!"))
+from Searchor import search, Engine
+print(search("Hello, World!", Engine.Amazon))

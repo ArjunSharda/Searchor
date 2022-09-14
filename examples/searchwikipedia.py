@@ -1,3 +1,2 @@
-import Searchor
-
-print(Searchor.SearchWikipedia("Thomas Jefferson"))
+from Searchor import search, Engine
+print(search("Hello, World!", Engine.Wikipedia))

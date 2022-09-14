@@ -14,3 +14,13 @@ Version 1.4.0:
 + Added LinkedIn search queries function
 + Added Mmoga search queries function
 + Added Facebook search queries function
+
+
+Version 2.0.0:
+
+
+- Removed all search pre-existing functions.
++ Added Thesaurus search queries function
++ added 'search' function.
++ prebuilt 'Engine' class.
++ Support for url encoding.
