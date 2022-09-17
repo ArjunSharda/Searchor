@@ -25,6 +25,7 @@ class Engine:
     Quora = "https://www.quora.com/search?q={query}"
     Replit = "https://replit.com/search?q={query}"
     StackOverflow = "https://www.stackoverflow.com/search?q={query}"
+    TikTok = "https://www.tiktok.com/search?q={query}"
     Twitter = "https://twitter.com/search?q={query}"
     Twitch = "https://www.twitch.tv/search?term={query}"
     Target = "https://www.target.com/s?searchTerm={query}"
