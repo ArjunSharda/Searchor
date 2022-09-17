@@ -38,5 +38,11 @@ class Engine:
     Wikihow = "https://www.wikihow.com/wikiHowTo?search={query}"
     Wolframalpha = "https://www.wolframalpha.com/input?i={query}"
 
+#search function    
 def search(query, engine=Engine.Google):
     return engine.format(query=quote(query, safe=""))
+
+#returns all the engines available
+def engine_list():  
+    members = [attr for attr in dir(Engine) if not callable(getattr(Engine, attr)) and not attr.startswith("__")]
+    return members
