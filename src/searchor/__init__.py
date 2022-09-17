@@ -33,6 +33,10 @@ class Engine:
     Bing = "https://www.bing.com/search?q={query}"
     Apple = "https://www.apple.com/search/{query}"
     Amazon = "https://www.amazon.com/s?k={query}"
+    Fandom = "https://www.fandom.com/?s={query}"
+    Ask = "https://www.ask.com/web?q={query}"
+    Wikihow = "https://www.wikihow.com/wikiHowTo?search={query}"
+    Wolframalpha = "https://www.wolframalpha.com/input?i={query}"
 
 def search(query, engine=Engine.Google):
     return engine.format(query=quote(query, safe=""))
