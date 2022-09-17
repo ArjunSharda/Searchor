@@ -63,5 +63,5 @@ View Engine list
 -------------
 ```python
 from searchor import engine_list
-print(engine_list)
+print(engine_list())
 ```
