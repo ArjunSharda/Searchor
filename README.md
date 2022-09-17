@@ -25,9 +25,9 @@ Quick Start
 ```
 Take a look at more examples in the [examples](https://github.com/ArjunSharda/Searchor/tree/main/examples) folder!
 
-v2.0.1 Changes
+v2.1.0 Changes
 --------------
-- **[MODIFIED]** changed all imports from `Searchor` to `searchor`
+- **[ADDED]** Added view engine list module
 
 
 Migration
@@ -57,4 +57,11 @@ from searchor import search, Engine
 Engine.MySite = "https://example.com/search/{query}"
 search("Hello, World!", Engine.MySite)
 search("Hello Again!", Engine.MySite)
+```
+
+View Engine list
+-------------
+```python
+from searchor import engine_list
+print(engine_list())
 ```
