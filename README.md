@@ -30,7 +30,7 @@ v2.1.0/v2.1.1 Changes
 - **[ADDED]** Added view engine list module
 - **[MODIFIED]** Changed engines to be in alphabetical order
 - **[ADDED]** Added Ask, Replit, WikiHow, Fandom, and Wolframalpha as engines.
-- **[ADDED** Added TikTok in 2.1.1
+- **[ADDED]** Added TikTok in 2.1.1
 
 
 Migration
