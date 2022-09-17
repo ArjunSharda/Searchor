@@ -58,3 +58,10 @@ Engine.MySite = "https://example.com/search/{query}"
 search("Hello, World!", Engine.MySite)
 search("Hello Again!", Engine.MySite)
 ```
+
+View Engine list
+-------------
+```python
+from searchor import engine_list
+print(engine_list)
+```
