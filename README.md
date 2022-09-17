@@ -28,6 +28,8 @@ Take a look at more examples in the [examples](https://github.com/ArjunSharda/Se
 v2.1.0 Changes
 --------------
 - **[ADDED]** Added view engine list module
+- **[MODIFIED]** Changed engines to be in alphabetical order
+- **[ADDED]** Added Ask, Replit, WikiHow, Fandom, and Wolframalpha.
 
 
 Migration
