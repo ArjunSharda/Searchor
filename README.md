@@ -25,11 +25,12 @@ Quick Start
 ```
 Take a look at more examples in the [examples](https://github.com/ArjunSharda/Searchor/tree/main/examples) folder!
 
-v2.1.0 Changes
+v2.1.0/v2.1.1 Changes
 --------------
 - **[ADDED]** Added view engine list module
 - **[MODIFIED]** Changed engines to be in alphabetical order
 - **[ADDED]** Added Ask, Replit, WikiHow, Fandom, and Wolframalpha as engines.
+- **[FIX]** Published v2.1.0 in v2.1.1 due to a accidental mistake
 
 
 Migration
