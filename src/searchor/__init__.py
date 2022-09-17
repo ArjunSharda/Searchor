@@ -33,6 +33,16 @@ class Engine:
     Walmart = "https://www.walmart.com/search?q={query}"
     Youtube = "https://www.youtube.com/results?search_query={query}"
     Yahoo = "https://search.yahoo.com/search?p={query}"
+    Fandom = "https://www.fandom.com/?s={query}"
+    Ask = "https://www.ask.com/web?q={query}"
+    Wikihow = "https://www.wikihow.com/wikiHowTo?search={query}"
+    Wolframalpha = "https://www.wolframalpha.com/input?i={query}"
 
+#search function    
 def search(query, engine=Engine.Google):
     return engine.format(query=quote(query, safe=""))
+
+#returns all the engines available
+def engine_list():  
+    members = [attr for attr in dir(Engine) if not callable(getattr(Engine, attr)) and not attr.startswith("__")]
+    return members
