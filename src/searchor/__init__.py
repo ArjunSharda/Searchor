@@ -2,6 +2,7 @@ from urllib.parse import quote
 
 class Engine:
     Apple = "https://www.apple.com/search/{query}"
+    Ask = "https://www.ask.com/web?q={query}"
     Amazon = "https://www.amazon.com/s?k={query}"   
     Bing = "https://www.bing.com/search?q={query}"
     ChromeWebStore = "https://chrome.google.com/webstore/search/{query}"
@@ -10,6 +11,7 @@ class Engine:
     DuckDuckGo = "https://www.duckduckgo.com/?q={query}"
     Dictionary = "https://www.dictionary.com/browse/{query}"
     Facebook = "https://www.facebook.com/search/top/?q={query}"
+    Fandom = "https://www.fandom.com/?s={query}"
     Github = "https://www.github.com/search?q={query}"
     Google = "https://www.google.com/search?q={query}"
     Genius = "https://www.genius.com/search?q={query}"
@@ -30,13 +32,11 @@ class Engine:
     Thesaurus = "https://www.thesaurus.com/browse/{query}"
     UrbanDictionary = "https://www.urbandictionary.com/define.php?term={query}"
     Wikipedia = "https://en.wikipedia.org/w/index.php?search={query}"
+    Wikihow = "https://www.wikihow.com/wikiHowTo?search={query}"
+    Wolframalpha = "https://www.wolframalpha.com/input?i={query}"
     Walmart = "https://www.walmart.com/search?q={query}"
     Youtube = "https://www.youtube.com/results?search_query={query}"
     Yahoo = "https://search.yahoo.com/search?p={query}"
-    Fandom = "https://www.fandom.com/?s={query}"
-    Ask = "https://www.ask.com/web?q={query}"
-    Wikihow = "https://www.wikihow.com/wikiHowTo?search={query}"
-    Wolframalpha = "https://www.wolframalpha.com/input?i={query}"
 
 #search function    
 def search(query, engine=Engine.Google):
