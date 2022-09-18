@@ -5,4 +5,4 @@ Check out the [README.md's installation section](https://github.com/ArjunSharda/
 
 
 # Find Searchor's code
-Check out the [src](https://github.com/ArjunSharda/Searchor/tree/main/src/Searchor) directory! If you are looking for the pyproject.toml, check out it [here](https://github.com/ArjunSharda/Searchor/blob/main/pyproject.toml)
+Check out the [src](https://github.com/ArjunSharda/Searchor/tree/main/src/searchor) directory! If you are looking for the pyproject.toml, check out it [here](https://github.com/ArjunSharda/Searchor/blob/main/pyproject.toml)
