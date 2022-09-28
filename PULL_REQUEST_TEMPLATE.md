@@ -1,13 +1,12 @@
-# Use_Appropriate_Title 
-
 ## What is this Pull Request About?
 
 <!-- Add a concise description about the motive of the pull request! -->
-<!-- You can use Bullet Points if the description is very large  -->
+<!-- You can also use bullet points & some text to make key points about the pull request.  -->
 
 
 ## What will this Pull Request Affect?
-<!-- `Use Bullet points for describing the changes or the effects this pull request might have on this project` -->
-- Bullet Point 1
-- Bullet Point 2
+<!-- `Provide details on what this pull request will affect.` -->
 
+
+# Any additional information?
+<!-- Anything else you would like to share? You can leave this blank. -->
