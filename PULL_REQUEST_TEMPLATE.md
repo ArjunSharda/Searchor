@@ -5,7 +5,7 @@
 
 
 ## What will this Pull Request Affect?
-<!-- `Provide details on what this pull request will affect.` -->
+<!-- Provide details on what this pull request will affect. -->
 
 
 # Any additional information?
