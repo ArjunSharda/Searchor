@@ -1,7 +1,9 @@
 Searchor uses Python classes, and the `urllib.parse` quote library.
 
 Installation
-Check out the [README.md's installation section](https://github.com/ArjunSharda/Searchor#installation)
+<br>
+Check out the [README.md's installation section](https://github.com/ArjunSharda/Searchor#installation)!
+</br>
 
 
 # Find Searchor's code
