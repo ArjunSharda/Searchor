@@ -27,6 +27,7 @@ class Engine:
     Microsoft = "https://www.microsoft.com/en-us/search/explore?q={query}"
     Mmoga = "https://www.mmoga.com/advanced_search.php?keywords={query}"
     OperaAddons = "https://addons.opera.com/en/search/?query={query}"
+    PyPi="https://pypi.org/search/?q={query}"
     Quora = "https://www.quora.com/search?q={query}"
     Replit = "https://replit.com/search?q={query}"
     StackOverflow = "https://www.stackoverflow.com/search?q={query}"
