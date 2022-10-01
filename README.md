@@ -24,7 +24,7 @@ Quick Start
 'https://www.google.com/search?q=Hello%2C%20World%21'
 ```
 
-*Note*:&nbsp; Engine names follow the **UpperCamelCase** convention.(eg: ChromeWebStore)
+*Note*:&nbsp; Engine names follow the **UpperCamelCase** convention.(eg: ChromeWebStore).
 
 Take a look at more examples in the [examples](https://github.com/ArjunSharda/Searchor/tree/main/examples) folder!
 
@@ -32,7 +32,7 @@ v2.1.2 Changes
 --------------
 - **[ADDED]** Added comments to the init, for future references if anyone decides to propose a new engine.
 - **[ADDED]** Added eBay, AOL, Lyscos, G2, USPS, UPS, Yandex, FedEx, PyPi, Excite, Spotify, and Medium.
-- **[HACKTOBERFEST]** Hacktoberfest submissions will be counted for all releases October 1 - October 31, 2022. Feel free to contribute! Documentation changes are accepted aswell.
+- **[HACKTOBERFEST]** Hacktoberfest submissions will be counted for all releases October 1 - October 31, 2022. Feel free to contribute! Documentation changes are accepted as well.
 
 
 Migration
