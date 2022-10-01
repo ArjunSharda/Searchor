@@ -33,6 +33,7 @@ class Engine:
     PyPi = "https://pypi.org/search/?q={query}"
     Quora = "https://www.quora.com/search?q={query}"
     Replit = "https://replit.com/search?q={query}"
+    Spotify = "https://open.spotify.com/search/{query}"
     StackOverflow = "https://www.stackoverflow.com/search?q={query}"
     TikTok = "https://www.tiktok.com/search?q={query}"
     Twitter = "https://twitter.com/search?q={query}"
