@@ -38,6 +38,7 @@ class Engine:
     Walmart = "https://www.walmart.com/search?q={query}"
     Youtube = "https://www.youtube.com/results?search_query={query}"
     Yahoo = "https://search.yahoo.com/search?p={query}"
+    USPS = "https://www.usps.com/search/results.htm?keyword={query}"
 
 #search function    
 def search(query, engine=Engine.Google):
