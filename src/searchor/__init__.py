@@ -1,5 +1,6 @@
 from urllib.parse import quote
 
+#Engines are listed in alphabetical order and UpperCamelCase convention
 class Engine:
     Apple = "https://www.apple.com/search/{query}"
     Ask = "https://www.ask.com/web?q={query}"
