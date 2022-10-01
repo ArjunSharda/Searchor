@@ -28,10 +28,9 @@ Quick Start
 
 Take a look at more examples in the [examples](https://github.com/ArjunSharda/Searchor/tree/main/examples) folder!
 
-v2.1.4 Changes
+v2.1.5 Changes
 --------------
-- **[ADDED]** Added Reddit, Altassian and AWS.
-- **[MODIFIED]** Modified the AOL search link as it was not the correct link.
+- **[BREAKING]** Fixed typo in Atlassian and Lycos
 
 
 Migration
