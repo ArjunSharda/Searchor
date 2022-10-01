@@ -4,6 +4,7 @@ from enum import Enum, unique
 
 @unique
 class Engine(Enum):
+#Engines are listed in alphabetical order and the UpperCamelCase convention
     Apple = "https://www.apple.com/search/{query}"
     Ask = "https://www.ask.com/web?q={query}"
     AOL = "https://search.aol.co.uk/aol/search?q={query}"
@@ -20,7 +21,7 @@ class Engine(Enum):
     Fandom = "https://www.fandom.com/?s={query}"
     FedEx = "https://www.fedex.com/en-us/search.html?q={query}"
     G2 = "https://www.g2.com/search?query={query}"
-    Github = "https://www.github.com/search?q={query}"
+    GitHub = "https://www.github.com/search?q={query}"
     Google = "https://www.google.com/search?q={query}"
     Genius = "https://www.genius.com/search?q={query}"
     InstantGaming = "https://www.instant-gaming.com/en/search/?q={query}"
@@ -41,7 +42,9 @@ class Engine(Enum):
     Target = "https://www.target.com/s?searchTerm={query}"
     Textures = "https://www.textures.com/search?q={query}"
     Thesaurus = "https://www.thesaurus.com/browse/{query}"
+    UPS = "https://www.ups.com/us/en/SearchResults.page?q={query}"
     UrbanDictionary = "https://www.urbandictionary.com/define.php?term={query}"
+    USPS = "https://www.usps.com/search/results.htm?keyword={query}"
     Wikipedia = "https://en.wikipedia.org/w/index.php?search={query}"
     Wikihow = "https://www.wikihow.com/wikiHowTo?search={query}"
     Wolframalpha = "https://www.wolframalpha.com/input?i={query}"
