@@ -3,6 +3,7 @@ from urllib.parse import quote
 class Engine:
     Apple = "https://www.apple.com/search/{query}"
     Ask = "https://www.ask.com/web?q={query}"
+    AOL = "https://search.aol.co.uk/aol/search?q={query}"
     Amazon = "https://www.amazon.com/s?k={query}"   
     Bing = "https://www.bing.com/search?q={query}"
     ChromeWebStore = "https://chrome.google.com/webstore/search/{query}"
@@ -10,14 +11,17 @@ class Engine:
     CrunchyrollBeta = "https://beta.crunchyroll.com/search?q={query}"
     DuckDuckGo = "https://www.duckduckgo.com/?q={query}"
     Dictionary = "https://www.dictionary.com/browse/{query}"
+    Excite = "https://results.excite.com/serp?q={query}"
     Facebook = "https://www.facebook.com/search/top/?q={query}"
     Fandom = "https://www.fandom.com/?s={query}"
+    FedEx = "https://www.fedex.com/en-us/search.html?q={query}"
     G2 = "https://www.g2.com/search?query={query}"
     Github = "https://www.github.com/search?q={query}"
     Google = "https://www.google.com/search?q={query}"
     Genius = "https://www.genius.com/search?q={query}"
     InstantGaming = "https://www.instant-gaming.com/en/search/?q={query}"
     JetBrains = "https://www.jetbrains.com/search/?q={query}"
+    Lyscos = "https://search20.lycos.com/web/?q={query}"
     LinkedIn = "https://www.linkedin.com/search/results/all/?keywords={query}"
     Lenovo = "https://www.lenovo.com/us/en/search?fq=&text={query}"
     Microsoft = "https://www.microsoft.com/en-us/search/explore?q={query}"
@@ -39,6 +43,7 @@ class Engine:
     Walmart = "https://www.walmart.com/search?q={query}"
     Youtube = "https://www.youtube.com/results?search_query={query}"
     Yahoo = "https://search.yahoo.com/search?p={query}"
+    Yandex = "https://yandex.com/search/?text={query}"
 
 #search function    
 def search(query, engine=Engine.Google):
