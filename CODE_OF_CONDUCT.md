@@ -17,7 +17,7 @@ Examples of behavior that contributes to creating a positive environment include
 - The software project team is committed to upholding these standards. Any member who does not comply with these standards may be asked to leave the team.
 
 # Enforcement
-Instances of abusive, harassing, or otherwise unacceptable behavior may be reported by contacting the software project team leader at sharda.aj17@gmail.com. All complaints will be reviewed and investigated and will result in a response that is deemed necessary and appropriate to the circumstances. The software project team leader is obligated to maintain confidentiality with regard to the reporter of an incident. Further details of specific enforcement policies may be posted separately.
+Instances of abusive, harassing, or otherwise unacceptable behavior may be reported by contacting a collaborator. All complaints will be reviewed and investigated and will result in a response that is deemed necessary and appropriate to the circumstances. The collaboration team is obligated to maintain confidentiality with regard to the reporter of an incident. Further details of specific enforcement policies may be posted separately.
 
 Project maintainers who do not follow or enforce the code of conduct in good faith may face temporary or permanent repercussions as determined by other members of the software project team.
 
