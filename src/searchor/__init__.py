@@ -26,6 +26,7 @@ class Engine:
     Lyscos = "https://search20.lycos.com/web/?q={query}"
     LinkedIn = "https://www.linkedin.com/search/results/all/?keywords={query}"
     Lenovo = "https://www.lenovo.com/us/en/search?fq=&text={query}"
+    Medium = "https://medium.com/search?q={query}"
     Microsoft = "https://www.microsoft.com/en-us/search/explore?q={query}"
     Mmoga = "https://www.mmoga.com/advanced_search.php?keywords={query}"
     OperaAddons = "https://addons.opera.com/en/search/?query={query}"
