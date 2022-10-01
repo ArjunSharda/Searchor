@@ -28,9 +28,10 @@ Quick Start
 
 Take a look at more examples in the [examples](https://github.com/ArjunSharda/Searchor/tree/main/examples) folder!
 
-v2.1.3 Changes
+v2.1.4 Changes
 --------------
-- **[ADDED]** Added Spotify, forgot to add in v2.1.2. Check out v2.1.2 [here](https://github.com/ArjunSharda/Searchor/releases/tag/v2.1.2f)
+- **[ADDED]** Added Reddit, Altassian and AWS.
+- **[MODIFIED]** Modified the AOL search link as it was an link for the UK and so it was changed to be made global.
 
 
 Migration
