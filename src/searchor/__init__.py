@@ -18,7 +18,7 @@ class Engine:
     Fandom = "https://www.fandom.com/?s={query}"
     FedEx = "https://www.fedex.com/en-us/search.html?q={query}"
     G2 = "https://www.g2.com/search?query={query}"
-    Github = "https://www.github.com/search?q={query}"
+    GitHub = "https://www.github.com/search?q={query}"
     Google = "https://www.google.com/search?q={query}"
     Genius = "https://www.genius.com/search?q={query}"
     InstantGaming = "https://www.instant-gaming.com/en/search/?q={query}"
