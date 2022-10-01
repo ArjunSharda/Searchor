@@ -28,11 +28,9 @@ Quick Start
 
 Take a look at more examples in the [examples](https://github.com/ArjunSharda/Searchor/tree/main/examples) folder!
 
-v2.1.2 Changes
+v2.1.3 Changes
 --------------
-- **[ADDED]** Added comments to the init, for future references if anyone decides to propose a new engine.
-- **[ADDED]** Added eBay, AOL, Lyscos, G2, USPS, UPS, Yandex, FedEx, PyPi, Excite, Spotify, and Medium.
-- **[HACKTOBERFEST]** Hacktoberfest submissions will be counted for all releases October 1 - October 31, 2022. Feel free to contribute! Documentation changes are accepted as well.
+- **[ADDED]** Added Spotify, forgot to add in v2.1.2. Check out v2.1.2 [here](https://github.com/ArjunSharda/Searchor/releases/tag/v2.1.2f)
 
 
 Migration
