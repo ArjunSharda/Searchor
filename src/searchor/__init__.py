@@ -12,6 +12,7 @@ class Engine:
     Dictionary = "https://www.dictionary.com/browse/{query}"
     Facebook = "https://www.facebook.com/search/top/?q={query}"
     Fandom = "https://www.fandom.com/?s={query}"
+    FedEx = "https://www.fedex.com/en-us/search.html?q={query}"
     Github = "https://www.github.com/search?q={query}"
     Google = "https://www.google.com/search?q={query}"
     Genius = "https://www.genius.com/search?q={query}"
