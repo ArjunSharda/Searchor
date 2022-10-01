@@ -40,6 +40,7 @@ class Engine:
     Textures = "https://www.textures.com/search?q={query}"
     Thesaurus = "https://www.thesaurus.com/browse/{query}"
     UrbanDictionary = "https://www.urbandictionary.com/define.php?term={query}"
+    USPS = "https://www.usps.com/search/results.htm?keyword={query}"
     Wikipedia = "https://en.wikipedia.org/w/index.php?search={query}"
     Wikihow = "https://www.wikihow.com/wikiHowTo?search={query}"
     Wolframalpha = "https://www.wolframalpha.com/input?i={query}"
