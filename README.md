@@ -23,6 +23,9 @@ Quick Start
 >>> search("Hello, World!", Engine.Google)
 'https://www.google.com/search?q=Hello%2C%20World%21'
 ```
+
+*Note*:&nbsp; Engine names follow the **UpperCamelCase** convention.(eg: ChromeWebStore)
+
 Take a look at more examples in the [examples](https://github.com/ArjunSharda/Searchor/tree/main/examples) folder!
 
 v2.1.0/v2.1.1 Changes
