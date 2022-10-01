@@ -31,7 +31,7 @@ Take a look at more examples in the [examples](https://github.com/ArjunSharda/Se
 v2.1.4 Changes
 --------------
 - **[ADDED]** Added Reddit, Altassian and AWS.
-- **[MODIFIED]** Modified the AOL search link as it was an link for the UK and so it was changed to be made global.
+- **[MODIFIED]** Modified the AOL search link as it was not the correct link.
 
 
 Migration
