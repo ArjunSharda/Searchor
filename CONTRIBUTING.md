@@ -6,7 +6,7 @@ This repository welcomes all contributions and corrections. Before contributing,
 If you're new to _git_ and/or _GitHub_, we suggest you go through [the GitHub Guides](https://guides.github.com/introduction/flow/).
 
 1. Fork this repository
-2. (Optional) Clone the fork
+2. (Optional) Clone the fork via `git`
 
    - Using SSH
 
@@ -29,7 +29,7 @@ If you're new to _git_ and/or _GitHub_, we suggest you go through [the GitHub Gu
 3. Create a new branch from the latest branch `main`
 4. Start editing file(s) on the new branch
 5. Commit and push to the new branch
-6. Make a pull request
+6. Make a pull request towards the original repository ([ArjunSharda/Searchor](https://github.com/ArjunSharda/Searchor/))
 
 ## Pull Request Guidelines
 
