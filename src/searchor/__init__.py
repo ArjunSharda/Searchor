@@ -38,6 +38,7 @@ class Engine:
     Target = "https://www.target.com/s?searchTerm={query}"
     Textures = "https://www.textures.com/search?q={query}"
     Thesaurus = "https://www.thesaurus.com/browse/{query}"
+    Ups = "https://www.ups.com/us/en/SearchResults.page?q={query}&index=1"
     UrbanDictionary = "https://www.urbandictionary.com/define.php?term={query}"
     Wikipedia = "https://en.wikipedia.org/w/index.php?search={query}"
     Wikihow = "https://www.wikihow.com/wikiHowTo?search={query}"
