@@ -12,7 +12,7 @@ class Engine:
     DuckDuckGo = "https://www.duckduckgo.com/?q={query}"
     Dictionary = "https://www.dictionary.com/browse/{query}"
     Excite = "https://results.excite.com/serp?q={query}"
-    Ebay = "https://www.ebay.com/sch/{query}"
+    eBay = "https://www.ebay.com/sch/{query}"
     Facebook = "https://www.facebook.com/search/top/?q={query}"
     Fandom = "https://www.fandom.com/?s={query}"
     FedEx = "https://www.fedex.com/en-us/search.html?q={query}"
