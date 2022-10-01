@@ -39,6 +39,7 @@ class Engine:
     Youtube = "https://www.youtube.com/results?search_query={query}"
     Yahoo = "https://search.yahoo.com/search?p={query}"
     Ebay = "https://www.ebay.com/sch/{query}"
+    FedEx = "https://www.fedex.com/en-in/search.html?q={query}"
 
 #search function    
 def search(query, engine=Engine.Google):
