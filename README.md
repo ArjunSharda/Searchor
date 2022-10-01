@@ -28,12 +28,11 @@ Quick Start
 
 Take a look at more examples in the [examples](https://github.com/ArjunSharda/Searchor/tree/main/examples) folder!
 
-v2.1.0/v2.1.1 Changes
+v2.1.2 Changes
 --------------
-- **[ADDED]** Added view engine list module
-- **[MODIFIED]** Changed engines to be in alphabetical order
-- **[ADDED]** Added Ask, Replit, WikiHow, Fandom, and Wolframalpha as engines.
-- **[ADDED]** Added TikTok in 2.1.1
+- **[ADDED]** Added comments to the init, for future references if anyone decides to propose a new engine.
+- **[ADDED]** Added eBay, AOL, Lyscos, G2, USPS, UPS, Yandex, FedEx, PyPi, Excite, Spotify, and Medium.
+- **[HACKTOBERFEST]** Hacktoberfest submissions will be counted for all releases October 1 - October 31, 2022. Feel free to contribute! Documentation changes are accepted aswell.
 
 
 Migration
