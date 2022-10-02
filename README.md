@@ -24,16 +24,13 @@ Quick Start
 'https://www.google.com/search?q=Hello%2C%20World%21'
 ```
 
-*Note*:&nbsp; Engine names follow the **UpperCamelCase** convention.(eg: ChromeWebStore)
+*Note*:&nbsp; Engine names follow the **UpperCamelCase** convention.(eg: ChromeWebStore).
 
 Take a look at more examples in the [examples](https://github.com/ArjunSharda/Searchor/tree/main/examples) folder!
 
-v2.1.0/v2.1.1 Changes
+v2.1.5 Changes
 --------------
-- **[ADDED]** Added view engine list module
-- **[MODIFIED]** Changed engines to be in alphabetical order
-- **[ADDED]** Added Ask, Replit, WikiHow, Fandom, and Wolframalpha as engines.
-- **[ADDED]** Added TikTok in 2.1.1
+- **[BREAKING]** Fixed typo in Atlassian and Lycos
 
 
 Migration
