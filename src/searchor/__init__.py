@@ -57,6 +57,3 @@ class Engine(Enum):
         if additional_queries:
             return self.value.format(query=quote(query, safe="")) + "?"+"&".join(query+"="+quote(query_val) for query, query_val in additional_queries.items())
         return self.value.format(query=quote(query, safe=""))
-
-    def engine_list():
-        return [e.value for e in Engine]
