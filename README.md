@@ -28,9 +28,9 @@ Quick Start
 
 Take a look at more examples in the [examples](https://github.com/ArjunSharda/Searchor/tree/main/examples) folder!
 
-v2.1.3 Changes
+v2.1.5 Changes
 --------------
-- **[ADDED]** Added Spotify, forgot to add in v2.1.2. Check out v2.1.2 [here](https://github.com/ArjunSharda/Searchor/releases/tag/v2.1.2f)
+- **[BREAKING]** Fixed typo in Atlassian and Lycos
 
 
 Migration
