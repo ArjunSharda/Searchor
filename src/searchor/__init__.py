@@ -4,14 +4,14 @@ from enum import Enum, unique
 
 @unique
 class Engine(Enum):
-#Engines are listed in alphabetical order and the UpperCamelCase convention
     Apple = "https://www.apple.com/search/{query}"
     Ask = "https://www.ask.com/web?q={query}"
-    AOL = "https://search.aol.co.uk/aol/search?q={query}"
-    Amazon = "https://www.amazon.com/s?k={query}" 
+    AOL = "https://search.aol.com/aol/search?q={query}"
+    Amazon = "https://www.amazon.com/s?k={query}"
     Atlassian = "https://www.atlassian.com/search?q={query}"
     AmazonWebServices = "https://aws.amazon.com/search/?searchQuery={query}"
     Bing = "https://www.bing.com/search?q={query}"
+    BlogSpot = "https://www.searchblogspot.com/search?q={query}"
     ChromeWebStore = "https://chrome.google.com/webstore/search/{query}"
     Crunchyroll = "https://www.crunchyroll.com/search?q={query}"
     CrunchyrollBeta = "https://beta.crunchyroll.com/search?q={query}"
@@ -62,3 +62,4 @@ class Engine(Enum):
         if additional_queries:
             return self.value.format(query=quote(query, safe="")) + ("?" if "?" not in self.value.split("/")[-1] else "&") + "&".join(query+"="+quote(query_val) for query, query_val in additional_queries.items())
         return self.value.format(query=quote(query, safe=""))
+

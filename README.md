@@ -24,13 +24,15 @@ Quick Start
 'https://www.google.com/search?q=Hello%2C%20World%21'
 ```
 
-*Note*:&nbsp; Engine names follow the **UpperCamelCase** convention.(eg: ChromeWebStore).
-
 Take a look at more examples in the [examples](https://github.com/ArjunSharda/Searchor/tree/main/examples) folder!
 
-v2.1.5 Changes
+*Note*:&nbsp; Engine names follow the **UpperCamelCase** convention.(eg: ChromeWebStore).
+
+v2.1.6 Changes
 --------------
-- **[BREAKING]** Fixed typo in Atlassian and Lycos
+- **[FIX]** Fixed duplicate for Amazon and AOL
+- **[ADDED]** Added BlogSpot search that uses searchblogspot.com to search Blogger
+- **[MODIFIED]** Modified formatting in the code, even for the examples and the main codebase
 
 
 Migration
