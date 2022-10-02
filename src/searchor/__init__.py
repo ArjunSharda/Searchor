@@ -5,7 +5,7 @@ from urllib.parse import quote
 class Engine:
     Apple = "https://www.apple.com/search/{query}"
     Ask = "https://www.ask.com/web?q={query}"
-    AOL = "https://search.aol.co.uk/aol/search?q={query}"
+    AOL = "https://search.aol.com/aol/search?q={query}"
     Amazon = "https://www.amazon.com/s?k={query}"
     Atlassian = "https://www.atlassian.com/search?q={query}"
     AmazonWebServices = "https://aws.amazon.com/search/?searchQuery={query}"
