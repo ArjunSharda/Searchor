@@ -31,7 +31,7 @@ Take a look at more examples in the [examples](https://github.com/ArjunSharda/Se
 v2.1.6 Changes
 --------------
 - **[FIX]** Fixed duplicate for Amazon and AOL
-- **[ADDED]** Added a BlogSpot search query that uses searchblogspot.com
+- **[ADDED]** Added BlogSpot search that uses searchblogspot.com to search Blogger
 - **[MODIFIED]** Modified formatting in the code, even for the examples and the main codebase
 
 
