@@ -10,8 +10,6 @@ class Engine(Enum):
     AOL = "https://search.aol.co.uk/aol/search?q={query}"
     Amazon = "https://www.amazon.com/s?k={query}" 
     Atlassian = "https://www.atlassian.com/search?q={query}"
-    AOL = "https://search.aol.com/aol/search?q={query}"
-    Amazon = "https://www.amazon.com/s?k={query}"  
     AmazonWebServices = "https://aws.amazon.com/search/?searchQuery={query}"
     Bing = "https://www.bing.com/search?q={query}"
     ChromeWebStore = "https://chrome.google.com/webstore/search/{query}"
@@ -62,5 +60,5 @@ class Engine(Enum):
 
     def search(self, query, additional_queries:dict=None):
         if additional_queries:
-            return self.value.format(query=quote(query, safe="")) + "?"+"&".join(query+"="+quote(query_val) for query, query_val in additional_queries.items())
+            return self.value.format(query=quote(query, safe="")) + ("?" if "?" not in self.value.split("/")[-1] else "&") + "&".join(query+"="+quote(query_val) for query, query_val in additional_queries.items())
         return self.value.format(query=quote(query, safe=""))
