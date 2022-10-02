@@ -1,16 +1,16 @@
 from urllib.parse import quote
 
-#Engines are listed in alphabetical order and the UpperCamelCase convention
+
+# Engines are listed in alphabetical order and the UpperCamelCase convention
 class Engine:
     Apple = "https://www.apple.com/search/{query}"
     Ask = "https://www.ask.com/web?q={query}"
-    AOL = "https://search.aol.co.uk/aol/search?q={query}"
-    Amazon = "https://www.amazon.com/s?k={query}" 
-    Atlassian = "https://www.atlassian.com/search?q={query}"
     AOL = "https://search.aol.com/aol/search?q={query}"
-    Amazon = "https://www.amazon.com/s?k={query}"  
+    Amazon = "https://www.amazon.com/s?k={query}"
+    Atlassian = "https://www.atlassian.com/search?q={query}"
     AmazonWebServices = "https://aws.amazon.com/search/?searchQuery={query}"
     Bing = "https://www.bing.com/search?q={query}"
+    BlogSpot = "https://www.searchblogspot.com/search?q={query}"
     ChromeWebStore = "https://chrome.google.com/webstore/search/{query}"
     Crunchyroll = "https://www.crunchyroll.com/search?q={query}"
     CrunchyrollBeta = "https://beta.crunchyroll.com/search?q={query}"
@@ -57,11 +57,17 @@ class Engine:
     Yahoo = "https://search.yahoo.com/search?p={query}"
     Yandex = "https://yandex.com/search/?text={query}"
 
-#search function    
+
+# search function
 def search(query, engine=Engine.Google):
     return engine.format(query=quote(query, safe=""))
 
-#returns all the engines available
-def engine_list():  
-    members = [attr for attr in dir(Engine) if not callable(getattr(Engine, attr)) and not attr.startswith("__")]
+
+# returns all the engines available
+def engine_list():
+    members = [
+        attr
+        for attr in dir(Engine)
+        if not callable(getattr(Engine, attr)) and not attr.startswith("__")
+    ]
     return members
