@@ -1,4 +1,5 @@
 from urllib.parse import quote
+from webbrowser import open_new_tab
 
 
 # Engines are listed in alphabetical order and the UpperCamelCase convention
@@ -59,8 +60,11 @@ class Engine:
 
 
 # search function
-def search(query, engine=Engine.Google):
-    return engine.format(query=quote(query, safe=""))
+def search(query, engine=Engine.Google, open_web=False):
+    url = engine.format(query=quote(query, safe=""))
+    if open_web is True:
+        open_new_tab()
+    return url
 
 
 # returns all the engines available
