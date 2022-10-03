@@ -1,8 +1,9 @@
+from audioop import add
 from urllib.parse import quote
+from enum import Enum, unique
 
-
-# Engines are listed in alphabetical order and the UpperCamelCase convention
-class Engine:
+@unique
+class Engine(Enum):
     Apple = "https://www.apple.com/search/{query}"
     Ask = "https://www.ask.com/web?q={query}"
     AOL = "https://search.aol.com/aol/search?q={query}"
@@ -57,17 +58,8 @@ class Engine:
     Yahoo = "https://search.yahoo.com/search?p={query}"
     Yandex = "https://yandex.com/search/?text={query}"
 
+    def search(self, query, additional_queries:dict=None):
+        if additional_queries:
+            return self.value.format(query=quote(query, safe="")) + ("?" if "?" not in self.value.split("/")[-1] else "&") + "&".join(query+"="+quote(query_val) for query, query_val in additional_queries.items())
+        return self.value.format(query=quote(query, safe=""))
 
-# search function
-def search(query, engine=Engine.Google):
-    return engine.format(query=quote(query, safe=""))
-
-
-# returns all the engines available
-def engine_list():
-    members = [
-        attr
-        for attr in dir(Engine)
-        if not callable(getattr(Engine, attr)) and not attr.startswith("__")
-    ]
-    return members
