@@ -28,11 +28,12 @@ Take a look at more examples in the [examples](https://github.com/ArjunSharda/Se
 
 *Note*:&nbsp; Engine names follow the **UpperCamelCase** convention.(eg: ChromeWebStore).
 
-v2.1.6 Changes
+v2.2.0 Changes
 --------------
-- **[FIX]** Fixed duplicate for Amazon and AOL
-- **[ADDED]** Added BlogSpot search that uses searchblogspot.com to search Blogger
-- **[MODIFIED]** Modified formatting in the code, even for the examples and the main codebase
+- **[BREAKING]** Engine class is now subclassed as an enumerator
+- **[BREAKING]** Removed engine_list
+- **[BREAKING]** Changed search function to be inside the Engine class
+- **[ADDED]** Added a additional_queries parameter in the search function
 
 
 Migration
