@@ -63,7 +63,7 @@ class Engine:
 def search(query, engine=Engine.Google, open_web=False):
     url = engine.format(query=quote(query, safe=""))
     if open_web is True:
-        open_new_tab()
+        open_new_tab(url)
     return url
 
 
