@@ -36,6 +36,7 @@ v2.2.0 Changes
 - **[BREAKING]** Changed search function to be inside the Engine class
 - **[ADDED]** Added a additional_queries parameter in the search function
 - **[ADDED]** Added a `open_web` parameter in the search function which is default set to `False` and can be made `True` to open a URL with Searchor in a new window with your default browser.
+- **[ADDED]** Added GitLab search engine
 
 
 Migration
