@@ -1,3 +1,3 @@
-from searchor import search
+from searchor import Engine
 
-print(search("Hello, World!"))  # default engine is Google
+print(Engine.Google.search("Hello, World!"))
