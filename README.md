@@ -20,8 +20,8 @@ py -3 -m pip install -U searchor
 Quick Start
 -----------
 ```python
->>> from searchor import search, Engine
->>> search("Hello, World!", Engine.Google)
+>>> from searchor import Engine
+>>> Engine.Google.search("Hello, World!")
 'https://www.google.com/search?q=Hello%2C%20World%21'
 ```
 
@@ -29,45 +29,26 @@ Take a look at more examples in the [examples](https://github.com/ArjunSharda/Se
 
 *Note*:&nbsp; Engine names follow the **UpperCamelCase** convention.(eg: ChromeWebStore).
 
-v2.1.6 Changes
+v2.2.0 Changes
 --------------
-- **[FIX]** Fixed duplicate for Amazon and AOL
-- **[ADDED]** Added BlogSpot search that uses searchblogspot.com to search Blogger
-- **[MODIFIED]** Modified formatting in the code, even for the examples and the main codebase
+- **[BREAKING]** Engine class is now subclassed as an enumerator
+- **[BREAKING]** Removed engine_list
+- **[BREAKING]** Changed search function to be inside the Engine class
+- **[ADDED]** Added a additional_queries parameter in the search function
+- **[ADDED]** Added a `open_web` parameter in the search function which is default set to `False` and can be made `True` to open a URL with Searchor in a new window with your default browser.
 
 
 Migration
 ---------
-Instead of different functions for each engine, Searchor `v2.0.0` uses a single function with an `Engine` enum. This makes it easier to use and maintain. If you're migrating from `v1.0.0`, compare the differences between the following snippets:
+Instead of different functions for each engine, Searchor `v2.2.0` uses a single function with an `Engine` enum. This makes it easier to use and maintain. If you're migrating from `v2.0.0`, compare the differences between the following snippets:
 ```python
-# Searchor v1.0.0
-import Searchor
-Searchor.SearchGoogle("Hello, World!")
-```
-```python
-# Searchor v2.0.0
+# Searchor 2.0.0
 from searchor import search, Engine
 search("Hello, World!", Engine.Google)
 ```
-
-Custom Engine
--------------
-Single Use 
 ```python
-from searchor import search
-search("Hello, World!", "https://example.com/search/{query}")
-```
-Multiple Use
-```python
-from searchor import search, Engine
-Engine.MySite = "https://example.com/search/{query}"
-search("Hello, World!", Engine.MySite)
-search("Hello Again!", Engine.MySite)
+# Searchor v2.2.0
+from searchor import Engine
+Engine.Google.search("Hello, World!")
 ```
 
-View Engine list
--------------
-```python
-from searchor import engine_list
-print(engine_list())
-```

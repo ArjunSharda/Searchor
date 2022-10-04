@@ -1,3 +1,3 @@
-from searchor import search, Engine
+from searchor import Engine
 
-print(search("Hello, World!", Engine.DuckDuckGo))
+print(Engine.DuckDuckGo.search("Hello, World!"))
