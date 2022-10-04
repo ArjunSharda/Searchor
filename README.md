@@ -19,8 +19,8 @@ py -3 -m pip install -U searchor
 Quick Start
 -----------
 ```python
->>> from searchor import search, Engine
->>> search("Hello, World!", Engine.Google)
+>>> from searchor import Engine
+>>> Engine.Google.search("Hello, World!")
 'https://www.google.com/search?q=Hello%2C%20World%21'
 ```
 
@@ -51,24 +51,3 @@ from searchor import Engine
 Engine.Google.search("Hello, World!")
 ```
 
-Custom Engine
--------------
-Single Use 
-```python
-from searchor import search
-search("Hello, World!", "https://example.com/search/{query}")
-```
-Multiple Use
-```python
-from searchor import search, Engine
-Engine.MySite = "https://example.com/search/{query}"
-search("Hello, World!", Engine.MySite)
-search("Hello Again!", Engine.MySite)
-```
-
-View Engine list
--------------
-```python
-from searchor import engine_list
-print(engine_list())
-```
