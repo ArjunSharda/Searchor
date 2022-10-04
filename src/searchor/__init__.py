@@ -3,6 +3,7 @@ from urllib.parse import quote
 from webbrowser import open_new_tab
 from enum import Enum, unique
 
+
 @unique
 class Engine(Enum):
     Apple = "https://www.apple.com/search/{query}"
@@ -59,10 +60,13 @@ class Engine(Enum):
     Yahoo = "https://search.yahoo.com/search?p={query}"
     Yandex = "https://yandex.com/search/?text={query}"
 
-    def search(self, query, open_web=False, additional_queries:dict=None):
-        url = self.value.format(query=quote(query, safe="")) + ("?" if "?" not in self.value.split("/")[-1] else "&") + "&".join(query+"="+quote(query_val) for query, query_val in additional_queries.items())
+    def search(self, query, open_web=False, additional_queries: dict = None):
+        url = self.value.format(query=quote(query, safe=""))
         if additional_queries:
-            return url
-        return self.value.format(query=quote(query, safe=""))
+            url += ("?" if "?" not in self.value.split("/")[-1] else "&") + "&".join(
+                query + "=" + quote(query_val)
+                for query, query_val in additional_queries.items()
+            )
         if open_web is True:
             open_new_tab(url)
+        return url
