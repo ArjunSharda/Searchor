@@ -6,6 +6,7 @@ from enum import Enum, unique
 
 @unique
 class Engine(Enum):
+    4anime= "https://4anime.gg/search?keyword={query}"
     Apple = "https://www.apple.com/search/{query}"
     Ask = "https://www.ask.com/web?q={query}"
     AOL = "https://search.aol.com/aol/search?q={query}"
