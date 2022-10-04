@@ -26,6 +26,7 @@ class Engine(Enum):
     FedEx = "https://www.fedex.com/en-us/search.html?q={query}"
     G2 = "https://www.g2.com/search?query={query}"
     GitHub = "https://www.github.com/search?q={query}"
+    GitLab = "https://www.gitlab.com/search?search={query}"
     Google = "https://www.google.com/search?q={query}"
     Genius = "https://www.genius.com/search?q={query}"
     InstantGaming = "https://www.instant-gaming.com/en/search/?q={query}"
