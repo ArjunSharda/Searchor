@@ -30,7 +30,7 @@ class Engine(Enum):
     FedEx = "https://www.fedex.com/en-us/search.html?q={query}"
     Flipkart = "https://www.flipkart.com/search?q={query}"
     G2 = "https://www.g2.com/search?query={query}"
-    GFonts = "https://fonts.google.com/?query={query}"
+   GoogleFonts = "https://fonts.google.com/?query={query}"
     GitHub = "https://www.github.com/search?q={query}"
     GitLab = "https://www.gitlab.com/search?search={query}"
     Google = "https://www.google.com/search?q={query}"
