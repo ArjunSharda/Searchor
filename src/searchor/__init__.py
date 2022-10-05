@@ -19,7 +19,7 @@ class Engine(Enum):
     CrunchyrollBeta = "https://beta.crunchyroll.com/search?q={query}"
     DuckDuckGo = "https://www.duckduckgo.com/?q={query}"
     Dictionary = "https://www.dictionary.com/browse/{query}"
-    DockerHub= "https://hub.docker.com/search?q={query}"
+    DockerHub = "https://hub.docker.com/search?q={query}"
     Excite = "https://results.excite.com/serp?q={query}"
     eBay = "https://www.ebay.com/sch/{query}"
     Facebook = "https://www.facebook.com/search/top/?q={query}"
