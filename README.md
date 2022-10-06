@@ -33,6 +33,7 @@ v2.2.1 Changes
 --------------
 - **[ADDED]** Added Instagram, Brave, AlternativeTo, Docker Hub, Unsplash, BBC, Indeed, CountryCode, OpenLibrary, Dell, Wired, Google Maps, Google Images, Audible, Behance, Bugzilla, Dribble, Flipkart, Google Fonts,  Imgur, Imgur, MDN, NPM and Steam search engines.
 - **[FIXED]** Fixed a broken image in PyPi of Searchor in the description.
+- **[REMOVED]** Removed a unneeded library in the codebase.
 
 
 Migration
