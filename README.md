@@ -29,14 +29,9 @@ Take a look at more examples in the [examples](https://github.com/ArjunSharda/Se
 
 *Note*:&nbsp; Engine names follow the **UpperCamelCase** convention.(eg: ChromeWebStore).
 
-v2.2.0 Changes
+v2.2.1 Changes
 --------------
-- **[BREAKING]** Engine class is now subclassed as an enumerator
-- **[BREAKING]** Removed engine_list
-- **[BREAKING]** Changed search function to be inside the Engine class
-- **[ADDED]** Added a additional_queries parameter in the search function
-- **[ADDED]** Added a `open_web` parameter in the search function which is default set to `False` and can be made `True` to open a URL with Searchor in a new window with your default browser.
-- **[ADDED]** Added GitLab search engine
+- **[ADDED]** Added Instagram, Brave, and AlternativeTo.
 
 
 Migration
