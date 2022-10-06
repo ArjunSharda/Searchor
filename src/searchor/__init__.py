@@ -6,6 +6,7 @@ from enum import Enum, unique
 
 @unique
 class Engine(Enum):
+    AlternativeTo = "https://alternativeto.net/browse/search/?q={query}"
     Apple = "https://www.apple.com/search/{query}"
     Ask = "https://www.ask.com/web?q={query}"
     AOL = "https://search.aol.com/aol/search?q={query}"
@@ -14,11 +15,13 @@ class Engine(Enum):
     AmazonWebServices = "https://aws.amazon.com/search/?searchQuery={query}"
     Bing = "https://www.bing.com/search?q={query}"
     BlogSpot = "https://www.searchblogspot.com/search?q={query}"
+    Brave = "https://search.brave.com/search?q={query}"
     ChromeWebStore = "https://chrome.google.com/webstore/search/{query}"
     Crunchyroll = "https://www.crunchyroll.com/search?q={query}"
     CrunchyrollBeta = "https://beta.crunchyroll.com/search?q={query}"
     DuckDuckGo = "https://www.duckduckgo.com/?q={query}"
     Dictionary = "https://www.dictionary.com/browse/{query}"
+    DockerHub = "https://hub.docker.com/search?q={query}"
     Excite = "https://results.excite.com/serp?q={query}"
     eBay = "https://www.ebay.com/sch/{query}"
     Facebook = "https://www.facebook.com/search/top/?q={query}"
@@ -30,6 +33,7 @@ class Engine(Enum):
     Google = "https://www.google.com/search?q={query}"
     Genius = "https://www.genius.com/search?q={query}"
     InstantGaming = "https://www.instant-gaming.com/en/search/?q={query}"
+    Instagram = "https://www.instagram.com/{query}"
     JetBrains = "https://www.jetbrains.com/search/?q={query}"
     Lycos = "https://search20.lycos.com/web/?q={query}"
     LinkedIn = "https://www.linkedin.com/search/results/all/?keywords={query}"
@@ -72,3 +76,4 @@ class Engine(Enum):
         if open_web is True:
             open_new_tab(url)
         return url
+    
