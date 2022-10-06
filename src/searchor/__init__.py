@@ -2,6 +2,7 @@ from audioop import add
 from urllib.parse import quote
 from webbrowser import open_new_tab
 from enum import Enum, unique
+import pyperclip
 
 
 @unique 
@@ -67,7 +68,7 @@ class Engine(Enum):
     Yahoo = "https://search.yahoo.com/search?p={query}"
     Yandex = "https://yandex.com/search/?text={query}"
 
-    def search(self, query, open_web=False, additional_queries: dict = None):
+    def search(self, query, open_web=False, copy_url=False, additional_queries: dict = None):
         url = self.value.format(query=quote(query, safe=""))
         if additional_queries:
             url += ("?" if "?" not in self.value.split("/")[-1] else "&") + "&".join(
@@ -76,4 +77,8 @@ class Engine(Enum):
             )
         if open_web is True:
             open_new_tab(url)
+
+        if copy_url is True:
+            pyperclip.copy(url)
+
         return url
