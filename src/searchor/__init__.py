@@ -1,4 +1,3 @@
-from audioop import add
 from urllib.parse import quote
 from webbrowser import open_new_tab
 from enum import Enum, unique
