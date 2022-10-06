@@ -31,7 +31,7 @@ Take a look at more examples in the [examples](https://github.com/ArjunSharda/Se
 
 v2.2.1 Changes
 --------------
-- **[ADDED]** Added Instagram, Brave, and AlternativeTo.
+- **[ADDED]** Added Instagram, Brave, AlternativeTo and Docker Hub search queries function.
 - **[FIXED]** Fixed a broken image in PyPi of Searchor in the description.
 
 
