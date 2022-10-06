@@ -2,7 +2,7 @@ Searchor
 ========
 ![PyPI](https://img.shields.io/pypi/v/searchor?color=green&logo=python&logoColor=green)
 [![Discord](https://img.shields.io/discord/1026470859868741662)](https://discord.gg/fPXNMW7swn)
-<div style="text-align: center; display: grid; justify-content: center;"><img style="margin: auto; margin-bottom: 1rem; border-radius: 30%;" height="150" width="150" src="./ext/searchor.png"/></div>
+<div style="text-align: center; display: grid; justify-content: center;"><img style="margin: auto; margin-bottom: 1rem; border-radius: 30%;" height="150" width="150" src="https://raw.githubusercontent.com/ArjunSharda/Searchor/main/ext/searchor.png"/></div>
 
 ⚡️ Quick and easy search engine queries.
 
@@ -29,14 +29,10 @@ Take a look at more examples in the [examples](https://github.com/ArjunSharda/Se
 
 *Note*:&nbsp; Engine names follow the **UpperCamelCase** convention.(eg: ChromeWebStore).
 
-v2.2.0 Changes
+v2.2.1 Changes
 --------------
-- **[BREAKING]** Engine class is now subclassed as an enumerator
-- **[BREAKING]** Removed engine_list
-- **[BREAKING]** Changed search function to be inside the Engine class
-- **[ADDED]** Added a additional_queries parameter in the search function
-- **[ADDED]** Added a `open_web` parameter in the search function which is default set to `False` and can be made `True` to open a URL with Searchor in a new window with your default browser.
-- **[ADDED]** Added GitLab search engine
+- **[ADDED]** Added Instagram, Brave, and AlternativeTo.
+- **[FIXED]** Fixed a broken image in PyPi of Searchor in the description.
 
 
 Migration
