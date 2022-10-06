@@ -31,7 +31,7 @@ Take a look at more examples in the [examples](https://github.com/ArjunSharda/Se
 
 v2.2.1 Changes
 --------------
-- **[ADDED]** Added Instagram, Brave, AlternativeTo and Docker Hub search queries function.
+- **[ADDED]** Added Instagram, Brave, AlternativeTo, Docker Hub, Unsplash, BBC, Indeed, CountryCode, OpenLibrary, Dell, and Wired.
 - **[FIXED]** Fixed a broken image in PyPi of Searchor in the description.
 
 
