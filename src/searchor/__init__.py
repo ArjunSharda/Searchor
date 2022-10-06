@@ -31,6 +31,8 @@ class Engine(Enum):
     GitHub = "https://www.github.com/search?q={query}"
     GitLab = "https://www.gitlab.com/search?search={query}"
     Google = "https://www.google.com/search?q={query}"
+    GoogleImages = "https://www.google.com/search?tbm=isch&q={query}"
+    GoogleMaps = "https://www.google.it/maps/place/{query}"
     Genius = "https://www.genius.com/search?q={query}"
     InstantGaming = "https://www.instant-gaming.com/en/search/?q={query}"
     Instagram = "https://www.instagram.com/{query}"
