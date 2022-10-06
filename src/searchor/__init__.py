@@ -4,7 +4,7 @@ from webbrowser import open_new_tab
 from enum import Enum, unique
 
 
-@unique
+@unique 
 class Engine(Enum):
     Apple = "https://www.apple.com/search/{query}"
     Ask = "https://www.ask.com/web?q={query}"
@@ -14,9 +14,12 @@ class Engine(Enum):
     AmazonWebServices = "https://aws.amazon.com/search/?searchQuery={query}"
     Bing = "https://www.bing.com/search?q={query}"
     BlogSpot = "https://www.searchblogspot.com/search?q={query}"
+    BBC = "https://www.bbc.co.uk/search?q={query}"
     ChromeWebStore = "https://chrome.google.com/webstore/search/{query}"
+    CountryCode = "https://countrycode.org/{query}"
     Crunchyroll = "https://www.crunchyroll.com/search?q={query}"
     CrunchyrollBeta = "https://beta.crunchyroll.com/search?q={query}"
+    Dell = "https://www.dell.com/en-us/search/{query}"
     DuckDuckGo = "https://www.duckduckgo.com/?q={query}"
     Dictionary = "https://www.dictionary.com/browse/{query}"
     Excite = "https://results.excite.com/serp?q={query}"
@@ -29,6 +32,7 @@ class Engine(Enum):
     GitLab = "https://www.gitlab.com/search?search={query}"
     Google = "https://www.google.com/search?q={query}"
     Genius = "https://www.genius.com/search?q={query}"
+    Indeed = "https://www.indeed.com/jobs?q={query}"
     InstantGaming = "https://www.instant-gaming.com/en/search/?q={query}"
     JetBrains = "https://www.jetbrains.com/search/?q={query}"
     Lycos = "https://search20.lycos.com/web/?q={query}"
@@ -37,6 +41,7 @@ class Engine(Enum):
     Medium = "https://medium.com/search?q={query}"
     Microsoft = "https://www.microsoft.com/en-us/search/explore?q={query}"
     Mmoga = "https://www.mmoga.com/advanced_search.php?keywords={query}"
+    OpenLibrary = "https://openlibrary.org/search?q={query}"
     OperaAddons = "https://addons.opera.com/en/search/?query={query}"
     PyPi = "https://pypi.org/search/?q={query}"
     Quora = "https://www.quora.com/search?q={query}"
@@ -55,6 +60,7 @@ class Engine(Enum):
     USPS = "https://www.usps.com/search/results.htm?keyword={query}"
     Wikipedia = "https://en.wikipedia.org/w/index.php?search={query}"
     Wikihow = "https://www.wikihow.com/wikiHowTo?search={query}"
+    Wired = "https://www.wired.com/search/?q={query}"
     Wolframalpha = "https://www.wolframalpha.com/input?i={query}"
     Walmart = "https://www.walmart.com/search?q={query}"
     Youtube = "https://www.youtube.com/results?search_query={query}"
