@@ -32,6 +32,7 @@ Take a look at more examples in the [examples](https://github.com/ArjunSharda/Se
 v2.2.1 Changes
 --------------
 - **[ADDED]** Added Instagram, Brave, and AlternativeTo.
+- **[FIXED]** Fixed a broken image in PyPi of Searchor in the description.
 
 
 Migration
