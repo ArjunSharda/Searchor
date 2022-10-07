@@ -61,23 +61,11 @@ search("Hello, World!", Engine.Google)
 from searchor import Engine
 Engine.Google.search("Hello, World!")
 ```
+
 ## Want to contribute?
-- Take a look at [`contributing guidelines`](CONTRIBUTING.md).
-- Refer [GitHub Flow](https://guides.github.com/introduction/flow). 
+Take a look at the [contributing guidelines](CONTRIBUTING.md)!
 
-## Contributors
-
-**Thanks goes to these wonderful people ❤️**
-
-<br/>
-<div align="center">
-<a href="https://github.com/ArjunSharda/Searchor/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=ArjunSharda/Searchor&max=100&columns=11" width=97%/>
-</a>
-</div>
-<br>
-<br>
 <hr>
-<h6 align="center">© Searchor 2022 
+<h6 align="center">© Arjun Sharda 2022 
 <br>
 All Rights Reserved</h6>
