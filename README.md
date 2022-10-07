@@ -76,3 +76,8 @@ Engine.Google.search("Hello, World!")
 </a>
 </div>
 <br>
+<br>
+<hr>
+<h6 align="center">© Searchor 2022 
+<br>
+All Rights Reserved</h6>
