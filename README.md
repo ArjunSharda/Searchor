@@ -39,11 +39,10 @@ Take a look at more examples in the [examples](https://github.com/ArjunSharda/Se
 
 *Note*:&nbsp; Engine names follow the **UpperCamelCase** convention.(eg: ChromeWebStore).
 
-v2.2.1 Changes
+v2.2.2 Changes
 --------------
-- **[ADDED]** Added Instagram, Brave, AlternativeTo, Docker Hub, Unsplash, BBC, Indeed, CountryCode, OpenLibrary, Dell, Wired, Google Maps, Google Images, Audible, Behance, Bugzilla, Dribble, Flipkart, Google Fonts,  Imgur, Imgur, MDN, NPM and Steam search engines.
-- **[FIXED]** Fixed a broken image in the PyPi of Searchor.
-- **[REMOVED]** Removed an unneeded library in the codebase.
+- **[ADDED]** Added copy URL to clipboard feature. [Check out a example here](https://github.com/ArjunSharda/Searchor/blob/main/examples/copy_url.py)
+- **[ADDED]** Added a image, copyright, and a contributor section to the README.md.
 
 
 Migration
