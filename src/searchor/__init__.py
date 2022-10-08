@@ -60,7 +60,7 @@ class Engine(Enum):
     NPM = "https://www.npmjs.com/search?q={query}"
     OpenLibrary = "https://openlibrary.org/search?q={query}"
     OperaAddons = "https://addons.opera.com/en/search/?query={query}"
-    PyP = "https://pypi.org/search/?q={query}"
+    PyPi = "https://pypi.org/search/?q={query}"
     Quora = "https://www.quora.com/search?q={query}"
     Replit = "https://replit.com/search?q={query}"
     Reddit = "https://www.reddit.com/search/?q={query}"
