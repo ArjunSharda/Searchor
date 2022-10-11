@@ -41,7 +41,7 @@ Take a look at more examples in the [examples](https://github.com/ArjunSharda/Se
 
 v2.2.3 Changes
 --------------
-- **[ADDED]** Added AskUbuntu, Google Play Store, Chegg, Pexels, TheVerge, and Udemy.
+- **[ADDED]** Added AskUbuntu, Google Play Store, Chegg, Pexels, TheVerge, Udemy, Accuweather, AliExpress, Asus, CNN, Freepik, Google News, HP, IMDb, iStock, and Samsung.
 
 Migration
 ---------
