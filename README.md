@@ -39,11 +39,9 @@ Take a look at more examples in the [examples](https://github.com/ArjunSharda/Se
 
 *Note*:&nbsp; Engine names follow the **UpperCamelCase** convention.(eg: ChromeWebStore).
 
-v2.2.2 Changes
+v2.2.3 Changes
 --------------
-- **[ADDED]** Added copy URL to clipboard feature. [Check out a example here](https://github.com/ArjunSharda/Searchor/blob/main/examples/copy_url.py)
-- **[ADDED]** Added a image, copyright, and a contributor section to the README.md.
-
+- **[ADDED]** Added AskUbuntu, Google Play Store, Chegg, Pexels, TheVerge, Udemy, Accuweather, AliExpress, Asus, CNN, Freepik, Google News, HP, IMDb, iStock, and Samsung.
 
 Migration
 ---------
