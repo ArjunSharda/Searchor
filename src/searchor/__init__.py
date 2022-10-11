@@ -71,7 +71,7 @@ class Engine(Enum):
     Quora = "https://www.quora.com/search?q={query}"
     Replit = "https://replit.com/search?q={query}"
     Reddit = "https://www.reddit.com/search/?q={query}"
-    Samsung = "https://www.samsung.com/in/search/?searchvalue={query}"
+    Samsung = "https://www.samsung.com/us/search/searchMain/?listType=g&searchTerm={query}"
     Spotify = "https://open.spotify.com/search/{query}"
     StackOverflow = "https://www.stackoverflow.com/search?q={query}"
     Steam = "https://store.steampowered.com/search/?term={query}"
