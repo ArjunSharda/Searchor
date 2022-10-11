@@ -15,7 +15,7 @@ class Engine(Enum):
     Amazon = "https://www.amazon.com/s?k={query}"
     Atlassian = "https://www.atlassian.com/search?q={query}"
     AmazonWebServices = "https://aws.amazon.com/search/?searchQuery={query}"
-    Asus = "https://www.asus.com/in/searchresult?searchType=products&searchKey={query}"
+    Asus = "https://www.asus.com/us/searchresult?searchType=products&searchKey={query}"
     Audible = "https://www.audible.in/search?keywords={query}"
     Behance = "https://www.behance.net/search?search={query}"
     Bing = "https://www.bing.com/search?q={query}"
