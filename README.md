@@ -41,8 +41,7 @@ Take a look at more examples in the [examples](https://github.com/ArjunSharda/Se
 
 v2.2.3 Changes
 --------------
-- **[ADDED]** Added AskUbuntu and Google Play Store engines.
-
+- **[ADDED]** Added AskUbuntu, Google Play Store, Chegg, Pexels, TheVerge, and Udemy.
 
 Migration
 ---------
