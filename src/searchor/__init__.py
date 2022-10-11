@@ -10,6 +10,7 @@ class Engine(Enum):
     AlternativeTo = "https://alternativeto.net/browse/search/?q={query}"
     Apple = "https://www.apple.com/search/{query}"
     Ask = "https://www.ask.com/web?q={query}"
+    AskUbuntu = "https://askubuntu.com/search?q={query}"
     AOL = "https://search.aol.com/aol/search?q={query}"
     AliExpress = "https://www.aliexpress.com/wholesale?catId=0&initiative_id=SB_20221010055835&SearchText={query}"
     Amazon = "https://www.amazon.com/s?k={query}"
@@ -23,6 +24,7 @@ class Engine(Enum):
     Brave = "https://search.brave.com/search?q={query}"
     Bugzilla = "https://bugzilla.mozilla.org/buglist.cgi?quicksearch={query}"
     BBC = "https://www.bbc.co.uk/search?q={query}"
+    Chegg = "https://www.chegg.com/search?q={query}"
     ChromeWebStore = "https://chrome.google.com/webstore/search/{query}"
     CNN = "https://edition.cnn.com/search?q={query}"
     CountryCode = "https://countrycode.org/{query}"
@@ -48,6 +50,7 @@ class Engine(Enum):
     GoogleImages = "https://www.google.com/search?tbm=isch&q={query}"
     GoogleMaps = "https://www.google.com/maps/search/{query}"
     GoogleNews = "https://news.google.com/search?q={query}"
+    GooglePlayStore = "https://play.google.com/store/search?q={query}"
     Genius = "https://www.genius.com/search?q={query}"
     HP = "https://www.hp.com/us-en/search.html#qt={query}"
     IMDb = "https://www.imdb.com/find?q={query}"
@@ -67,6 +70,7 @@ class Engine(Enum):
     NPM = "https://www.npmjs.com/search?q={query}"
     OpenLibrary = "https://openlibrary.org/search?q={query}"
     OperaAddons = "https://addons.opera.com/en/search/?query={query}"
+    Pexels = "https://www.pexels.com/search/{query}"
     PyPi = "https://pypi.org/search/?q={query}"
     Quora = "https://www.quora.com/search?q={query}"
     Replit = "https://replit.com/search?q={query}"
@@ -81,6 +85,8 @@ class Engine(Enum):
     Target = "https://www.target.com/s?searchTerm={query}"
     Textures = "https://www.textures.com/search?q={query}"
     Thesaurus = "https://www.thesaurus.com/browse/{query}"
+    TheVerge = "https://www.theverge.com/search?q={query}"
+    Udemy = "https://www.udemy.com/courses/search/?src=ukw&q={query}"
     Unsplash = "https://unsplash.com/s/photos/{query}"
     UPS = "https://www.ups.com/us/en/SearchResults.page?q={query}"
     UrbanDictionary = "https://www.urbandictionary.com/define.php?term={query}"
@@ -93,7 +99,7 @@ class Engine(Enum):
     Youtube = "https://www.youtube.com/results?search_query={query}"
     Yahoo = "https://search.yahoo.com/search?p={query}"
     Yandex = "https://yandex.com/search/?text={query}"
-
+    
     def search(self, query, open_web=False, copy_url=False, additional_queries: dict = None):
         url = self.value.format(query=quote(query, safe=""))
         if additional_queries:
