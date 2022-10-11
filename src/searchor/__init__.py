@@ -49,7 +49,7 @@ class Engine(Enum):
     GoogleMaps = "https://www.google.com/maps/search/{query}"
     GoogleNews = "https://news.google.com/search?q={query}"
     Genius = "https://www.genius.com/search?q={query}"
-    HP = "https://www.hp.com/in-en/shop/catalogsearch/result/?q={query}"
+    HP = "https://www.hp.com/us-en/search.html#qt={query}"
     IMDb = "https://www.imdb.com/find?q={query}"
     Imgur = "https://imgur.com/search?q={query}"
     Indeed = "https://www.indeed.com/jobs?q={query}"
