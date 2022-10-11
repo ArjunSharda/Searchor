@@ -9,6 +9,7 @@ class Engine(Enum):
     AlternativeTo = "https://alternativeto.net/browse/search/?q={query}"
     Apple = "https://www.apple.com/search/{query}"
     Ask = "https://www.ask.com/web?q={query}"
+    AskUbuntu = "https://askubuntu.com/search?q={query}"
     AOL = "https://search.aol.com/aol/search?q={query}"
     Amazon = "https://www.amazon.com/s?k={query}"
     Atlassian = "https://www.atlassian.com/search?q={query}"
@@ -42,6 +43,7 @@ class Engine(Enum):
     Google = "https://www.google.com/search?q={query}"
     GoogleImages = "https://www.google.com/search?tbm=isch&q={query}"
     GoogleMaps = "https://www.google.com/maps/search/{query}"
+    GooglePlayStore = "https://play.google.com/store/search?q={query}"
     Genius = "https://www.genius.com/search?q={query}"
     Imgur = "https://imgur.com/search?q={query}"
     Indeed = "https://www.indeed.com/jobs?q={query}"
@@ -83,7 +85,7 @@ class Engine(Enum):
     Youtube = "https://www.youtube.com/results?search_query={query}"
     Yahoo = "https://search.yahoo.com/search?p={query}"
     Yandex = "https://yandex.com/search/?text={query}"
-
+    
     def search(self, query, open_web=False, copy_url=False, additional_queries: dict = None):
         url = self.value.format(query=quote(query, safe=""))
         if additional_queries:
