@@ -48,7 +48,7 @@ Take a look at more examples in the [examples](https://github.com/ArjunSharda/Se
 v2.3.0 Changes
 --------------
 - **[ADDED]** Added CCMixture, Hoogle, and Naver
-- **[MODIFIED]** Modified the pyproject.toml to be setup.py with different code to support CLI
+- **[ADDED]** Added a setup.py to support CLI
 -- **[ADDED]** Added CLI, examples are available of the current supported options [here](https://github.com/ArjunSharda/Searchor/blob/main/examples/cli/SUPPORTED_OPTIONS.md)
 
 Migration
