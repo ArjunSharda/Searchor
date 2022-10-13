@@ -8,7 +8,7 @@ long_description = (project_dir / "README.md").read_text(encoding="utf-8")
 
 setup(
     name="searchor",
-    version="2.2.2",
+    version="2.3.0",
     description="⚡️ Quick and easy search engine queries.",
     long_description=long_description,
     long_description_content_type="text/markdown",
