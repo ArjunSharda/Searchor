@@ -105,6 +105,9 @@ class Engine(Enum):
     Yahoo = "https://search.yahoo.com/search?p={query}"
     Yandex = "https://yandex.com/search/?text={query}"
     Youtube = "https://www.youtube.com/results?search_query={query}"
+    Hoogle = "https://hoogle.haskell.org/?hoogle={query}"
+    Naver = "https://search.naver.com/search.naver?where=nexearch&sm=top_hty&fbm=1&ie=utf8&query={query}"
+    CC = "http://ccmixter.org/api/query?datasource=uploads&search_type=all&sort=rank&search={query}"
 
     def search(self, query, open_web=False, copy_url=False, additional_queries: dict = None):
         url = self.value.format(query=quote(query, safe=""))
