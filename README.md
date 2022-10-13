@@ -35,7 +35,7 @@ Quick Start
 'https://www.google.com/search?q=Hello%2C%20World%21'
 ```
 
-Searchor CLI
+Searchor CLI Quick Start
 ---------
 `$ searchor Google "Hello World!" --copy`
 <br>
