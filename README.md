@@ -45,9 +45,9 @@ Take a look at more examples in the [examples](https://github.com/ArjunSharda/Se
 
 *Note*:&nbsp; Engine names follow the **UpperCamelCase** convention.(eg: ChromeWebStore).
 
-v2.3.1 Changes
+v2.3.2 Changes
 --------------
-- **[PATCHED]** Patched a bug with AOL and BBC being duplicates
+- **[PATCHED]** Patched a bug with Amazon Web Services, Altassian, and Amazon being duplicates.
 
 Migration
 ---------
