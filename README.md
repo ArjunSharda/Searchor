@@ -45,11 +45,9 @@ Take a look at more examples in the [examples](https://github.com/ArjunSharda/Se
 
 *Note*:&nbsp; Engine names follow the **UpperCamelCase** convention.(eg: ChromeWebStore).
 
-v2.3.0 Changes
+v2.3.1 Changes
 --------------
-- **[ADDED]** Added CCMixture, Hoogle, and Naver
-- **[ADDED]** Added a setup.py to support CLI
--- **[ADDED]** Added CLI, examples are available of the current supported options [here](https://github.com/ArjunSharda/Searchor/blob/main/examples/cli/SUPPORTED_OPTIONS.md)
+- **[PATCHED]** Patched a bug with AOL and BBC being duplicates
 
 Migration
 ---------
