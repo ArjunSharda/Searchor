@@ -37,7 +37,9 @@ Quick Start
 
 Searchor CLI Quick Start
 ---------
-`$ searchor Google "Hello World!" --copy`
+```shell
+$ searchor Google "Hello World!" --copy
+```
 <br>
 </br>
 
