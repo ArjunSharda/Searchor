@@ -1,6 +1,7 @@
 from urllib.parse import quote
 from webbrowser import open_new_tab
 from enum import Enum, unique
+from aenum import extend_enum
 import pyperclip
 
 
@@ -103,6 +104,9 @@ class Engine(Enum):
     Yahoo = "https://search.yahoo.com/search?p={query}"
     Yandex = "https://yandex.com/search/?text={query}"
     Youtube = "https://www.youtube.com/results?search_query={query}"
+
+    def new(engine_name, base_url):
+        extend_enum(Engine, engine_name, base_url + "{query}")
 
     def search(self, query, open_web=False, copy_url=False, additional_queries: dict = None):
         url = self.value.format(query=quote(query, safe=""))
