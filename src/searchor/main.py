@@ -1,8 +1,11 @@
 import click
 from searchor import Engine
 
+@click.group()
+def cli():
+    pass
 
-@click.command()
+@cli.command()
 @click.option(
     "-o",
     "--open",
@@ -21,7 +24,7 @@ from searchor import Engine
 )
 @click.argument("engine")
 @click.argument("query")
-def cli(engine, query, open, copy):
+def run(engine, query, open, copy):
     click.echo(
         eval(f"Engine.{engine}.search('{query}', copy_url={copy}, open_web={open})")
     )
@@ -30,6 +33,9 @@ def cli(engine, query, open, copy):
     if copy:
         click.echo("link copied to clipboard")
 
+@cli.command()
+def history():
+    click.echo("history command, coming soon")
 
 if __name__ == "__main__":
     cli()
