@@ -1,5 +1,6 @@
 import click
 from searchor import Engine
+import searchor.history as sh
 
 @click.group()
 def cli():
@@ -24,18 +25,21 @@ def cli():
 )
 @click.argument("engine")
 @click.argument("query")
-def run(engine, query, open, copy):
-    click.echo(
-        eval(f"Engine.{engine}.search('{query}', copy_url={copy}, open_web={open})")
-    )
-    if open:
-        click.echo("opening browser...")
-    if copy:
-        click.echo("link copied to clipboard")
+def search(engine, query, open, copy):
+    try:
+        result = eval(f"Engine.{engine}.search('{query}', copy_url={copy}, open_web={open})")
+        click.echo(result)
+        if open:
+            click.echo("opening browser...")
+        if copy:
+            click.echo("link copied to clipboard")
+    except AttributeError:
+        click.echo(f"{engine} is not a recognized search engine")
 
 @cli.command()
 def history():
     click.echo("history command, coming soon")
+    click.echo(sh.DATA_PATH)
 
 if __name__ == "__main__":
     cli()
