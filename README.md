@@ -35,13 +35,21 @@ Quick Start
 'https://www.google.com/search?q=Hello%2C%20World%21'
 ```
 
+Searchor CLI Quick Start
+---------
+```shell
+$ searchor Google "Hello World!" --copy
+```
+<br>
+</br>
+
 Take a look at more examples in the [examples](https://github.com/ArjunSharda/Searchor/tree/main/examples) folder!
 
 *Note*:&nbsp; Engine names follow the **UpperCamelCase** convention.(eg: ChromeWebStore).
 
-v2.2.3 Changes
+v2.3.2 Changes
 --------------
-- **[ADDED]** Added AskUbuntu, Google Play Store, Chegg, Pexels, TheVerge, Udemy, Accuweather, AliExpress, Asus, CNN, Freepik, Google News, HP, IMDb, iStock, Samsung, and Leetcode search engines.
+- **[PATCHED]** Patched a bug with Amazon Web Services, Altassian, and Amazon being duplicates.
 
 Migration
 ---------
