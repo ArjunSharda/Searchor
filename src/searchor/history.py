@@ -12,7 +12,8 @@ def update(engine, query, url):
     search_data = {
            "url": url,
            "engine": engine,
-           "query": query
+           "query": query,
+           "time": str(datetime.today().strftime("%I:%M %p"))
     }
     
     if not os.path.exists(DATA_PATH): # check if data file does not exist
@@ -32,5 +33,5 @@ def clear():
 def view():
     with open(DATA_PATH, "+r") as history_file:
         history_data = json.load(history_file)        
-        for s in history_data["searches"]:
-            print(s["url"])
+        for search in history_data["searches"]:
+            print(f"{search['time']}: {search['url']}")
