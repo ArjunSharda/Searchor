@@ -43,7 +43,6 @@ Custom Engine
 'https://www.colgate.com/en-us/search/all?term=Hi%20world!"
 
 Searchor CLI Quick Start
------------------------
 ```bash
 $ searchor Google "Hello World!" --copy
 ```
