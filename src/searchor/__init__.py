@@ -5,7 +5,7 @@ from aenum import extend_enum
 import pyperclip
 
 
-@unique 
+@unique
 class Engine(Enum):
     Accuweather = "https://www.accuweather.com/en/search-locations?query={query}"
     AlternativeTo = "https://alternativeto.net/browse/search/?q={query}"
@@ -123,4 +123,3 @@ class Engine(Enum):
             pyperclip.copy(url)
 
         return url
-    
