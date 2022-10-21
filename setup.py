@@ -25,7 +25,8 @@ setup(
 
     python_requires=">=3.7, <4",
 
-    install_requires=["pyperclip", "click"],
+    install_requires=["pyperclip", "aenum", "click"],
+   
     
    
     entry_points={  
