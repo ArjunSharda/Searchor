@@ -41,7 +41,7 @@ Custom Engine
 >>> Engine.new("Colgate", "https://www.colgate.com/en-us/search/all?term=")
 >>> print(Engine.Colgate.search("Hi world!", copy_url=True)
 'https://www.colgate.com/en-us/search/all?term=Hi%20world!"
-
+```
 Searchor CLI Quick Start
 ```bash
 $ searchor Google "Hello World!" --copy
