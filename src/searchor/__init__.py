@@ -79,9 +79,7 @@ class Engine(Enum):
     Quora = "https://www.quora.com/search?q={query}"
     Reddit = "https://www.reddit.com/search/?q={query}"
     Replit = "https://replit.com/search?q={query}"
-    Samsung = (
-        "https://www.samsung.com/us/search/searchMain/?listType=g&searchTerm={query}"
-    )
+    Samsung = "https://www.samsung.com/us/search/searchMain/?listType=g&searchTerm={query}"
     Spotify = "https://open.spotify.com/search/{query}"
     StackOverflow = "https://www.stackoverflow.com/search?q={query}"
     Steam = "https://store.steampowered.com/search/?term={query}"
@@ -106,9 +104,7 @@ class Engine(Enum):
     Yandex = "https://yandex.com/search/?text={query}"
     Youtube = "https://www.youtube.com/results?search_query={query}"
 
-    def search(
-        self, query, open_web=False, copy_url=False, additional_queries: dict = None
-    ):
+    def search(self, query, open_web=False, copy_url=False, additional_queries: dict = None):
         url = self.value.format(query=quote(query, safe=""))
         if additional_queries:
             url += ("?" if "?" not in self.value.split("/")[-1] else "&") + "&".join(
