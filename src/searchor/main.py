@@ -2,9 +2,11 @@ import click
 from searchor import Engine
 import searchor.history
 
+
 @click.group()
 def cli():
     pass
+
 
 @cli.command()
 @click.option(
@@ -27,15 +29,18 @@ def cli():
 @click.argument("query")
 def search(engine, query, open, copy):
     try:
-        url = eval(f"Engine.{engine}.search('{query}', copy_url={copy}, open_web={open})")
+        url = eval(
+            f"Engine.{engine}.search('{query}', copy_url={copy}, open_web={open})"
+        )
         click.echo(url)
         searchor.history.update(engine, query, url)
         if open:
             click.echo("opening browser...")
         if copy:
             click.echo("link copied to clipboard")
-    except:
-        click.echo(f"engine doesn't exist")
+    except AttributeError:
+        print("engine not recognized")
+
 
 @cli.command()
 @click.option(
@@ -51,6 +56,7 @@ def history(clear):
         searchor.history.clear()
     else:
         searchor.history.view()
+
 
 if __name__ == "__main__":
     cli()
