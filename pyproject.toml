@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "searchor"
-version = "2.3.2"
+version = "2.4.0"
 authors = [
     { name="Arjun Sharda", email="sharda.aj17@gmail.com" },
     { name="William Jackson", email="william@kegnh.com" },

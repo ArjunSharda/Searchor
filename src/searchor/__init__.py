@@ -1,10 +1,11 @@
 from urllib.parse import quote
 from webbrowser import open_new_tab
 from enum import Enum, unique
+from aenum import extend_enum
 import pyperclip
 
 
-@unique 
+@unique
 class Engine(Enum):
     Accuweather = "https://www.accuweather.com/en/search-locations?query={query}"
     AlternativeTo = "https://alternativeto.net/browse/search/?q={query}"
@@ -79,6 +80,7 @@ class Engine(Enum):
     Quora = "https://www.quora.com/search?q={query}"
     Reddit = "https://www.reddit.com/search/?q={query}"
     Replit = "https://replit.com/search?q={query}"
+    Reuters = "https://www.reuters.com/search/news?blob={query}"
     Samsung = "https://www.samsung.com/us/search/searchMain/?listType=g&searchTerm={query}"
     Spotify = "https://open.spotify.com/search/{query}"
     StackOverflow = "https://www.stackoverflow.com/search?q={query}"
@@ -104,6 +106,9 @@ class Engine(Enum):
     Yandex = "https://yandex.com/search/?text={query}"
     Youtube = "https://www.youtube.com/results?search_query={query}"
 
+    def new(engine_name, base_url):
+        extend_enum(Engine, engine_name, base_url + "{query}")
+
     def search(self, query, open_web=False, copy_url=False, additional_queries: dict = None):
         url = self.value.format(query=quote(query, safe=""))
         if additional_queries:
@@ -118,4 +123,3 @@ class Engine(Enum):
             pyperclip.copy(url)
 
         return url
-    
