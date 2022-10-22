@@ -57,7 +57,7 @@ v2.4.0/v2.4.1 Changes
 --------------
 - **[ADDED]** Added custom Engine support, check out a example [here](https://github.com/ArjunSharda/Searchor/blob/main/examples/custom_engine.py)
 - **[ADDED]** Added Reuters search engine
-- **[ADDED]** Added History CLI command which stores data in a JSON file, and which allows you to view and clear. You can see some information of what was added for the history command [here](https://github.com/ArjunSharda/Searchor/pull/125)
+- **[ADDED]** Added the History CLI command which stores data in a JSON file, and which allows you to view and clear. You can see some information of what was added for the history command [here](https://github.com/ArjunSharda/Searchor/pull/125)
 - **[MODIFIED]** Modified the CLI with some other minor changes
 
 Migration
