@@ -1,24 +1,30 @@
 # Supported Options
 
-This is a list of all the official supported CLI options of Searchor.
+This is a list of all the official supported CLI options of Searchor, with a example of them being used.
 
 # Normal ✅
 ```shell
-$ searchor Yahoo "Hello World!"
+$ searchor search Yahoo "Hello World!"
 
 ```
 
 # Copy URL ✅
 ```shell
-$ searchor Google "Hello World!" --copy
+$ searchor search Google "Hello World!" --copy
 ```
 
-# Open Web ✅
-
- Example
- 
+# Open Web ✅ 
 
 ```shell
-$ searchor Target "Hello World!" --open
+$ searchor search Target "Hello World!" --open
 ```
 
+# History ✅
+```shell
+$ searchor history
+```
+
+# Clear History ✅
+```shell
+$ searchor history --clear
+```
