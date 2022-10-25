@@ -34,10 +34,16 @@ Quick Start
 >>> Engine.Google.search("Hello, World!")
 'https://www.google.com/search?q=Hello%2C%20World%21'
 ```
-
+Custom Engine
+-------------
+```python
+>>> from searchor import Engine
+>>> Engine.new("Colgate", "https://www.colgate.com/en-us/search/all?term=")
+>>> print(Engine.Colgate.search("Hi world!", copy_url=True)
+'https://www.colgate.com/en-us/search/all?term=Hi%20world!"
+```
 Searchor CLI Quick Start
----------
-```shell
+```bash
 $ searchor Google "Hello World!" --copy
 ```
 <br>
@@ -47,9 +53,12 @@ Take a look at more examples in the [examples](https://github.com/ArjunSharda/Se
 
 *Note*:&nbsp; Engine names follow the **UpperCamelCase** convention.(eg: ChromeWebStore).
 
-v2.3.2 Changes
+v2.4.0/v2.4.1 Changes
 --------------
-- **[PATCHED]** Patched a bug with Amazon Web Services, Altassian, and Amazon being duplicates.
+- **[ADDED]** Added custom Engine support, check out a example [here](https://github.com/ArjunSharda/Searchor/blob/main/examples/custom_engine.py)
+- **[ADDED]** Added Reuters search engine
+- **[ADDED]** Added the History CLI command which stores data in a JSON file, and which allows you to view and clear. You can see some information of what was added for the history command [here](https://github.com/ArjunSharda/Searchor/pull/125)
+- **[MODIFIED]** Modified the CLI with some other minor changes
 
 Migration
 ---------
