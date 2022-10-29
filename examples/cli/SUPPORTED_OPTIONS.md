@@ -1,9 +1,30 @@
 # Supported Options
 
-Searchor uses all of the Engines listed in the __init__.py in the CLI as well!
+This is a list of all the official supported CLI options of Searchor, with a example of them being used.
 
-# Copy URL
-You can do `$ searchor Google "Hello World!" --copy` as an example
+# Normal ✅
+```shell
+$ searchor search Yahoo "Hello World!"
 
-# Open Web
-You can do `$ searchor Target "Hello World!" --open` as an example
+```
+
+# Copy URL ✅
+```shell
+$ searchor search Google "Hello World!" --copy
+```
+
+# Open Web ✅ 
+
+```shell
+$ searchor search Target "Hello World!" --open
+```
+
+# History ✅
+```shell
+$ searchor history
+```
+
+# Clear History ✅
+```shell
+$ searchor history --clear
+```
