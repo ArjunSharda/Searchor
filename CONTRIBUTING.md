@@ -1,6 +1,6 @@
 # Contributing Guidelines
 
-> :information_source: Please follow the [code of conduct](CODE_OF_CONDUCT.md) in all the interactions with Searchor and your fork repository.
+> :information_source: Please read the [code of conduct](CODE_OF_CONDUCT.md) before any interaction with Searchor and your fork repository.
 
 This repository welcomes all contributions and corrections. Before contributing, please make sure you have read the guidelines below. <br>
 If you're new to _git_ and/or _GitHub_, we suggest you go through [the GitHub Guides](https://guides.github.com/introduction/flow/).
