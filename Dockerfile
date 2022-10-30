@@ -7,8 +7,7 @@ COPY requirements.txt ./
 ENV PIP_ROOT_USER_ACTION=ignore
 
 RUN pip install --no-cache-dir --upgrade pip \
-  && pip install --no-cache-dir -r requirements.txt \
-  && pip install --no-cache-dir searchor
+      && pip install --no-cache-dir searchor
 
 COPY . .
 
