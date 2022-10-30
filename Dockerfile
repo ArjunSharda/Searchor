@@ -2,8 +2,6 @@ FROM python:3
 
 WORKDIR /usr/src/searchor
 
-COPY requirements.txt ./
-
 ENV PIP_ROOT_USER_ACTION=ignore
 
 RUN pip install --no-cache-dir --upgrade pip \
