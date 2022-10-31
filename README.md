@@ -31,7 +31,7 @@ Quick Start
 -----------
 ```python
 >>> from searchor import Engine
->>> Engine.Google.search("Hello, World!")
+>>> Engine.Google.search("Hello, World!"))
 'https://www.google.com/search?q=Hello%2C%20World%21'
 ```
 Custom Engine
@@ -39,7 +39,7 @@ Custom Engine
 ```python
 >>> from searchor import Engine
 >>> Engine.new("Colgate", "https://www.colgate.com/en-us/search/all?term=")
->>> print(Engine.Colgate.search("Hi world!", copy_url=True)
+>>> Engine.Colgate.search("Hi world!", copy_url=True)
 'https://www.colgate.com/en-us/search/all?term=Hi%20world!"
 ```
 Searchor CLI Quick Start
@@ -55,7 +55,7 @@ Take a look at more examples in the [examples](https://github.com/ArjunSharda/Se
 
 v2.4.2 Changes
 --------------
-- **[VULNERABILITY]** Patched a vulnerability in the Searchor CLI instead of using eval.
+- **[VULNERABILITY]** Patched a priority vulnerability in the Searchor CLI ([check out the patch here](https://github.com/ArjunSharda/Searchor/pull/130))
 - **[ADDED]** Added Pinterest search engine
 - **[ADDED]** Added Docker to build and test Searchor
 
