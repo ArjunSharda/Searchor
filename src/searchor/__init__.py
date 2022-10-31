@@ -76,6 +76,7 @@ class Engine(Enum):
     OpenLibrary = "https://openlibrary.org/search?q={query}"
     OperaAddons = "https://addons.opera.com/en/search/?query={query}"
     Pexels = "https://www.pexels.com/search/{query}"
+    Pinterest = "https://www.pinterest.com/search/pins/?q={query}"
     PyPi = "https://pypi.org/search/?q={query}"
     Quora = "https://www.quora.com/search?q={query}"
     Reddit = "https://www.reddit.com/search/?q={query}"
