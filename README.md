@@ -58,12 +58,12 @@ Docker
 
 Building the docker image
 ```
-$ docker build -t searcher .
+$ docker build -t searchor .
 ```
 
-Running searcher on the docker container
+Running searchor on the docker container
 ```
-$ docker run --rm -it searcher bash
+$ docker run --rm -it searchor bash
 root@36126d096405:/usr/src/searchor/examples# python searchamazon.py
 https://www.amazon.com/s?k=Hello%2C%20World%21
 root@36126d096405:/usr/src/searchor/examples# exit
