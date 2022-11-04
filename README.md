@@ -53,6 +53,23 @@ Take a look at more examples in the [examples](https://github.com/ArjunSharda/Se
 
 *Note*:&nbsp; Engine names follow the **UpperCamelCase** convention.(eg: ChromeWebStore).
 
+Docker
+------
+
+Building the docker image
+```
+$ docker build -t searchor .
+```
+
+Running searchor on the docker container
+```
+$ docker run --rm -it searchor bash
+root@36126d096405:/usr/src/searchor/examples# python searchamazon.py
+https://www.amazon.com/s?k=Hello%2C%20World%21
+root@36126d096405:/usr/src/searchor/examples# exit
+exit
+```
+
 v2.4.2 Changes
 --------------
 - **[VULNERABILITY]** Patched a priority vulnerability in the Searchor CLI ([check out the patch here](https://github.com/ArjunSharda/Searchor/pull/130))
