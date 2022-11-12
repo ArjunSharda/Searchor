@@ -70,11 +70,9 @@ root@36126d096405:/usr/src/searchor/examples# exit
 exit
 ```
 
-v2.4.2 Changes
+v2.4.3 Changes
 --------------
-- **[VULNERABILITY]** Patched a priority vulnerability in the Searchor CLI ([check out the patch here](https://github.com/ArjunSharda/Searchor/pull/130))
-- **[ADDED]** Added Pinterest search engine
-- **[ADDED]** Added Docker to build and test Searchor
+- **[ADDED]** Added InternetArchive (Wayback Machine) and Google Scholar search engines.
 
 Migration
 ---------
