@@ -57,17 +57,15 @@ Docker
 ------
 
 Building the docker image
-```
+```sh
 $ docker build -t searchor .
 ```
 
 Running searchor on the docker container
-```
-$ docker run --rm -it searchor bash
-root@36126d096405:/usr/src/searchor/examples# python searchamazon.py
+```sh
+$ docker run --rm -it searchor sh
+/usr/src/searchor/examples # python searchamazon.py
 https://www.amazon.com/s?k=Hello%2C%20World%21
-root@36126d096405:/usr/src/searchor/examples# exit
-exit
 ```
 
 v2.4.3 Changes
