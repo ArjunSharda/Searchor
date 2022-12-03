@@ -2,7 +2,7 @@ from urllib.parse import quote
 from webbrowser import open_new_tab
 from enum import Enum, unique
 from aenum import extend_enum
-import pyperclip
+from pyperclip import copy
 
 
 @unique
@@ -123,6 +123,6 @@ class Engine(Enum):
             open_new_tab(url)
 
         if copy_url is True:
-            pyperclip.copy(url)
+            copy(url)
 
         return url
