@@ -68,9 +68,9 @@ $ docker run --rm -it searchor sh
 https://www.amazon.com/s?k=Hello%2C%20World%21
 ```
 
-v2.4.3 Changes
+v2.4.4 Changes
 --------------
-- **[ADDED]** Added InternetArchive (Wayback Machine) and Google Scholar search engines.
+- **[MODIFIED]** Modified the codebase to use only ``copy`` from pyperclip.
 
 Migration
 ---------
