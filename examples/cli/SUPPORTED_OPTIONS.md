@@ -1,6 +1,6 @@
 # Supported Options
 
-This is a list of all the official supported CLI options of Searchor, with a example of them being used.
+This is a list of all the official supported CLI options of Searchor, with an example of them being used.
 
 # Normal ✅
 ```shell
