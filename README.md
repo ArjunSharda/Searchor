@@ -90,6 +90,6 @@ Engine.Google.search("Hello, World!")
 Take a look at the [contributing guidelines](CONTRIBUTING.md)!
 
 <hr>
-<h6 align="center">© Arjun Sharda 2022 
+<h6 align="center">© Arjun Sharda 2022-present
 <br>
 All Rights Reserved</h6>
