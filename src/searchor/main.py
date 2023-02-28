@@ -51,8 +51,8 @@ def search(engine, query, open, copy):
   show_default=True,
   help="Gathers information about a topic"
 )
-@click.argument("topic")
-def getinfo(topic):
+@click.argument("topic", type=str)
+def getinfo(getinfo, topic):
   try:
     click.echo(Information.getinfo(topic))
   finally:
@@ -68,8 +68,8 @@ def getinfo(topic):
   show_default=True,
   help="Web scrapes a website"
 )
-@click.argument("url")
-def webscrape(url):
+@click.argument("url", type=str)
+def webscrape(webscrape, url):
   click.echo(Information.scrape(url))
 
 
