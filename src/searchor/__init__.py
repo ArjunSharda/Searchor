@@ -3,6 +3,8 @@ from webbrowser import open_new_tab
 from enum import Enum, unique
 from aenum import extend_enum
 from pyperclip import copy
+import requests
+from bs4 import BeautifulSoup
 
 
 @unique
@@ -126,3 +128,42 @@ class Engine(Enum):
             copy(url)
 
         return url
+    
+    
+    
+    
+
+
+class Information(Enum):
+  def getinfo(topic):
+    url = f"https://en.wikipedia.org/api/rest_v1/page/summary/{topic.replace(' ', '_')}"
+    response = requests.get(url)
+    if response.status_code == 200:
+        summary = response.json()["extract"]
+        return summary
+    else:
+        return "Error: Could not retrieve information"
+
+def web_scraper(url):
+    try:
+        response = requests.get(url)
+        response.raise_for_status()
+    except requests.exceptions.HTTPError as errh:
+        print("HTTP Error:", errh)
+        return None
+    except requests.exceptions.ConnectionError as errc:
+        print("Connection Error:", errc)
+        return None
+    except requests.exceptions.Timeout as errt:
+        print("Timeout Error:", errt)
+        return None
+    except requests.exceptions.RequestException as err:
+        print("Error:", err)
+        return None
+    
+    soup = BeautifulSoup(response.text, 'html.parser')
+    title = soup.title.string
+    paragraphs = soup.find_all('p')
+    
+    return {'title': title, 'paragraphs': paragraphs}
+

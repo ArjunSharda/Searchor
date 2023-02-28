@@ -68,9 +68,13 @@ $ docker run --rm -it searchor sh
 https://www.amazon.com/s?k=Hello%2C%20World%21
 ```
 
-v2.4.4 Changes
+v2.5.0 Changes
 --------------
-- **[MODIFIED]** Modified the codebase to use only ``copy`` from pyperclip.
+- **[ADDED]** Added a new Enum class `Information`.
+- **[ADDED]** Added `getinfo` function in the `Information` Enum to gather information about a given topic, using Wikipedia.
+- **[ADDED]** Add `web_scraper` function in the `Information` Enum, to web scrape a URL that is given.
+- **[ADDED]** Added bs4 and requests as dependencies.
+- **[MODIFIED]** The Searchor Package is now officially becoming a library, and is therefore no longer considered a package.
 
 Migration
 ---------
