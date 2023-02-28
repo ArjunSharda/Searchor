@@ -15,6 +15,9 @@ Searchor
 [![Discord](https://img.shields.io/discord/1026470859868741662)](https://discord.gg/fPXNMW7swn)
 <div style="text-align: center; display: grid; justify-content: center;"><img style="margin: auto; margin-bottom: 1rem; border-radius: 30%;" height="150" width="150" src="https://raw.githubusercontent.com/ArjunSharda/Searchor/main/ext/searchor.png"/></div>
 
+# Description
+
+ Searchor is an all-in-one PyPi Python Library that simplifies web scraping, obtaining information on an topic, and generating search query URLs. Searchor is an a efficient tool for Python developers, with many web development needs in one, with support of over 100+ Engines and custom engines allowed, making it easy for developers to use for their web programming needs in Python without relying on many third-party dependencies. Furthermore, Searchor has a wide range of support, including command line interface and pip.
 
 Installation
 ------------
