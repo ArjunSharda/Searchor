@@ -79,6 +79,7 @@ v2.5.0
 v2.5.1
 
 - **[FIXED}** Fixed issue with web scraping, with attribute errors
+- **[ADDED]** Added CLI support for `scrape` and `getinfo`, of the information class
 
 Migration
 ---------
