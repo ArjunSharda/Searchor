@@ -144,7 +144,7 @@ class Information(Enum):
     else:
         return "Error: Could not retrieve information"
 
-def scrape(url):
+  def scrape(url):
     try:
         response = requests.get(url)
         response.raise_for_status()
