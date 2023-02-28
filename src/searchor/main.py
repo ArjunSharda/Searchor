@@ -69,7 +69,7 @@ def getinfo(getinfo, topic):
   help="Web scrapes a website"
 )
 @click.argument("url", type=str)
-def webscrape(webscrape, url):
+def webscrape(scrape, url):
   click.echo(Information.scrape(url))
 
 
