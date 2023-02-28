@@ -78,7 +78,7 @@ v2.5.0
 - **[MODIFIED]** The Searchor Package is now officially becoming a library, and is therefore no longer considered a package.
 
 v2.5.2
-- **[FIXED}** Fixed issue with web scraping, with attribute errors, and CLI issues
+- **[FIXED]** Fixed issue with web scraping, with attribute errors, and CLI issues
 
 Migration
 ---------
