@@ -76,8 +76,8 @@ v2.5.0
 - **[ADDED]** Add `web_scraper` function in the `Information` Enum, to web scrape a URL that is given.
 - **[ADDED]** Added bs4 and requests as dependencies.
 - **[MODIFIED]** The Searchor Package is now officially becoming a library, and is therefore no longer considered a package.
-v2.5.1
 
+v2.5.1
 - **[FIXED}** Fixed issue with web scraping, with attribute errors
 - **[ADDED]** Added CLI support for `scrape` and `getinfo`, of the information class
 
