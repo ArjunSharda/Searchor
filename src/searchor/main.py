@@ -1,5 +1,6 @@
 import click
 from searchor import Engine
+from searchor import Information
 import searchor.history
 
 
@@ -40,6 +41,39 @@ def search(engine, query, open, copy):
         print("engine not recognized")
 
 
+
+@cli.command()
+@click.option(
+  "-g",
+  "--getinfo",
+  is_flag=True,
+  default=False,
+  show_default=True,
+  help="Gathers information about a topic"
+)
+@click.argument("topic")
+def getinfo(topic):
+  try:
+    click.echo(Information.getinfo(topic))
+  finally:
+    pass
+
+
+@cli.command()
+@click.option(
+  "-ws",
+  "--scrape",
+  is_flag=True,
+  default=False,
+  show_default=True,
+  help="Web scrapes a website"
+)
+@click.argument("url")
+def webscrape(url):
+  click.echo(Information.scrape(url))
+
+
+  
 @cli.command()
 @click.option(
     "-c",
