@@ -42,7 +42,7 @@ Custom Engine
 ```python
 >>> from searchor import Engine
 >>> Engine.new("Colgate", "https://www.colgate.com/en-us/search/all?term=")
->>> Engine.Colgate.search("Hi world!", copy_url=True)
+>>> Engine.Colgate.search("Hi world!")
 'https://www.colgate.com/en-us/search/all?term=Hi%20world!"
 ```
 Searchor CLI Quick Start
@@ -51,6 +51,22 @@ $ searchor Google "Hello World!" --copy
 ```
 <br>
 </br>
+
+Web Scrape
+----------
+```python
+>>> from searchor import Information
+>>> Information.scrape("https://google.com")
+>>> '{'title': 'Google', 'paragraphs': [<p style="font-size:8pt;color:#70757a">© 2023 - <a href="/intl/en/policies/privacy/">Privacy</a> - <a href="/intl/en/policies/terms/">Terms</a></p>]}'
+```
+
+
+Get Information
+---------------
+```python
+>>> from searchor import Information
+>>> Information.getinfo("GitHub")
+>>> 'GitHub, Inc. is an Internet hosting service for software development and version control using Git. It provides the distributed version control of Git plus access control, bug tracking, software feature requests, task management, continuous integration, and wikis for every project. Headquartered in California, it has been a subsidiary of Microsoft since 2018.'
 
 Take a look at more examples in the [examples](https://github.com/ArjunSharda/Searchor/tree/main/examples) folder!
 
