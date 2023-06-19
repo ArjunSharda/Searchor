@@ -11,4 +11,9 @@ RUN python searchamazon.py \
     && python searchduckduckgo.py \
     && python searchgoogle.py \
     && python searchyahoo.py \
+    && python searchwikipedia.py \
+    && python scrape.py \
+    && python open_web.py \
+    && python getinfo.py \
+    && python copy_url.py \
     && python custom_engine.py
